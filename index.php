@@ -14,7 +14,7 @@
 	</header>
 	<nav>
 		<ul>
-			<li><a href="#" title="Primer elemento">prueba</a></li>
+			<li><a href="#" title="Primer elemento">Uno</a></li>
 			<li><a href="#">Dos</a></li>
 			<li><a href="#">Trest</a></li>
 		</ul>

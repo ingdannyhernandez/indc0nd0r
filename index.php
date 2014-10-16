@@ -5,7 +5,7 @@
 	<title>PROCON</title>
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link href="estilo.css" rel="stylesheet" type="text/css">
-     <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+  <link href="image/favicon.png" type="text/css" rel="shortcut icon"/>
 </head>
 
 <body>

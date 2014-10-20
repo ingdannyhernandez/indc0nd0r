@@ -48,9 +48,13 @@ section aside{
     float: left;
     width: 20em;
 }
-section content{ 
-	display: block; 
-	padding-left: 21em; }
+section content{
+	display: block;
+	position: absolute;
+	left: 500px;
+	top: 200px;
+	width: 419px;
+}
 
 div.featured{ 
 	background: none repeat scroll 0 0 #FFA500;

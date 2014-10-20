@@ -10,23 +10,38 @@
 
 <body>
 	<header>
-		<h1>Bienvenidos a mi Sitio</h1>
+		<h1><img src="image/logo.png" width="350" height="88"></h1>
 	</header>
 	<nav>
 		<ul>
-			<li><a href="#" title="Primer elemento">Uno</a></li>
-			<li><a href="#">Dos</a></li>
-			<li><a href="#">Trest</a></li>
+		  <li></li>
+			<li></li>
+			<li></li>
 		</ul>
 	</nav>
 	<section>
-		<aside>
-<input type="date" name="fecha" >
-		</aside>
-		<content>
-			
+		
+	  <content>
+   	
+		<fieldset><legend>MODULOS</legend>
+		  <table width="100%" border="0" align="center">
+		    <tr>
+		      <th scope="col"><img src="image/mantenimiento.png" width="128" height="128"></th>
+		      <th scope="col"><img src="image/bienesmuebles.png" width="128" height="128"></th>
+		      <th scope="col"><img src="image/ecomputo33.png" width="128" height="128"></th>
+	        </tr>
+		    <tr>
+		      <td>PRODUCCION</td>
+		      <td>DESPERDICIO MATERIAL</td>
+		      <td>INVENTARIO DE EQUIPOS</td>
+	        </tr>
+	      </table>
+		  <p>&nbsp;</p>
+       
+		</fieldset>	
+      
 		</content>
-	</section>
+</section>
 	<footer>
 		Todos los derechos reservados.
 	</footer>

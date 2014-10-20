@@ -180,7 +180,8 @@ sub {
  */
 
 img {
-  border: 0;
+	border: 0;
+	text-align: center;
 }
 
 /**
@@ -386,8 +387,9 @@ fieldset {
  */
 
 legend {
-  border: 0; /* 1 */
-  padding: 0; /* 2 */
+	border: 0; /* 1 */
+	padding: 0; /* 2 */
+	text-align: center;
 }
 
 /**
@@ -421,5 +423,8 @@ table {
 
 td,
 th {
-  padding: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
 }

@@ -14,13 +14,12 @@ header{
 
 }
 
-div.sesion{
+div.sesion{/*posicion de la sesion en la parte derecha ariba*/
 	width: 266px;
 	position: absolute;
-	margin-right: 0;
-	margin-bottom: 0;
-	left: 675px;
-	top: 86px;
+
+	right: 0.5em;
+   top: 3em;
 
 
   }

@@ -6,8 +6,15 @@ VERDECOBALTO=#189
 header{ 
 	background: #189; 
 	height: 70px;
+<<<<<<< HEAD
   
 	
+=======
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+ 
+>>>>>>> origin/master
 }
 
 div.sesion{
@@ -156,9 +163,9 @@ footer{
 	  margin-top:70px;
 	  clear: both; background: #189;
 	  text-align: center; color: #fff;
-
-	 
-	   } /* Esta clase define la anchura del contenido y la posicion centrada El contenido queda centrado y limitado, pero la cabecera y el pie llegan hasta los limites del navegador. */
+	border-top:#c30;
+	border-top-style:solid;
+	border-top-width:5px;
 	   
 	
 }

@@ -45,6 +45,11 @@ switch ($opcion2)
 default:
 include("sesion.php");
 } ?></div>
+
+
+
+
+  
 </header>
 <content>
 <div class="principal">

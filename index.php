@@ -17,7 +17,6 @@
 		<img src="image/logo.png" width="192" height="57">
            
 	</header>
-<hr><!--linea debajo de la imagen--> 
 <content>
   <div class="formClave">
     <h1>Conectar con PROCON</h1>
@@ -41,6 +40,6 @@
    			</div>
 </content>
 
-<footer>  <hr><!--linea debajo de la imagen--></footer>
+<footer>.</footer>
 </body>
 </html> 

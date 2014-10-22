@@ -6,18 +6,23 @@ VERDECOBALTO=#189
 header{ 
 	background: #189; 
 	height: 70px;
+<<<<<<< HEAD
+  
+	
+=======
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
  
+>>>>>>> origin/master
 }
 
-div.sesion{ 
+div.sesion{
 	width: 27em;
-  	position: relative;
-	bottom:0.1em;
-	right:0.5em;
-	left:1em;
+	position: absolute;
+	bottom: 386px;
+	right: 0.5em;
+	left: 614px;
   }
 
 div.principal{ 
@@ -164,4 +169,3 @@ footer{
 	   
 	
 }
-

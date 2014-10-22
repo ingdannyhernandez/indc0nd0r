@@ -38,13 +38,18 @@ session_start();
 
 <body>
 <header>
-    	<h1>INDUSTRIAS CONDOR</h1>
+  <h1>INDUSTRIAS CONDOR</h1>
         <div class="sesion"><?php @$opcion2=$_GET["opcion2"];
 switch ($opcion2)
 {
 default:
 include("sesion.php");
 } ?></div>
+
+
+
+
+  
 </header>
 <content>
 <div class="principal">

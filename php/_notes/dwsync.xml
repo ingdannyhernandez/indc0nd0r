@@ -4,4 +4,6 @@
 <file name="coneccion.php" server="C:/xampp2/htdocs/procon/" local="130584737672227157" remote="130584737670000000" Dst="0" />
 <file name="coneccion.php" server="C:/wamp/www/procon/" local="130584776229881182" remote="130584776220000000" Dst="0" />
 <file name="ClasePhp.php" server="C:/wamp/www/procon/" local="130584776229801178" remote="130584776220000000" Dst="0" />
+<file name="ClasePhp.php" server="192.168.1.201/procon/" local="130584776229801178" remote="130584782400000000" Dst="0" />
+<file name="coneccion.php" server="192.168.1.201/procon/" local="130584776229881182" remote="130584782400000000" Dst="0" />
 </dwsync>

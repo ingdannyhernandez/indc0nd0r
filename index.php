@@ -20,13 +20,13 @@
     			<form name="form1" method="post" action="verificarIngreso.php">
    			    
                 <p>
-   			    <label for="usu_log">Usuario</label>
-   			    <input type="text" name="usu_log" id="usu_log"><br>
+   			    <label for="usuario">Usuario</label>
+   			    <input type="text" name="usuario" id="usuario"><br>
                 </p>
 
 		        <p>
-		          <label for="usu_pass">Contraseña</label>
-		          <input type="password" name="usu_pass" id="usu_pass"><br>
+		          <label for="clave">Contraseña</label>
+		          <input type="password" name="clave" id="clave"><br>
 
                  </p>
                   <p>

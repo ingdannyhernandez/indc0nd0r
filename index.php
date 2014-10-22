@@ -19,29 +19,7 @@
 			<li></li>
 		</ul>
 	</nav>
-	<section>
-		
-	  <content>
-   	
-		<fieldset><legend>MODULOS</legend>
-		  <table width="100%" border="0" align="center">
-		    <tr>
-              <th scope="col"><a href="#"><img src="image/mantenimiento.png" width="128" height="128"></a> 
-              PRODUCCION</th>
-	
-		      <th scope="col"><a href="sistema/cndesp/index.html"><img src="image/bienesmuebles.png" width="128" height="128"></a> 
-             DESPERDICIO MATERIAL </th>
-              
-		      <th scope="col"><a href="#"><img src="image/ecomputo33.png" width="128" height="128"></a> 
-             INVENTARIO DE EQUIPOS</th>
-	        </tr>
-	      </table>
-		  <p>&nbsp;</p>
-       
-		</fieldset>	
-      
-		</content>
-</section>
+	<section></section>
 	<footer>
 		Todos los derechos reservados.
 	</footer>

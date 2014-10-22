@@ -26,14 +26,14 @@
 		<fieldset><legend>MODULOS</legend>
 		  <table width="100%" border="0" align="center">
 		    <tr>
-		      <th scope="col"><img src="image/mantenimiento.png" width="128" height="128"></th>
-		      <th scope="col"><img src="image/bienesmuebles.png" width="128" height="128"></th>
-		      <th scope="col"><img src="image/ecomputo33.png" width="128" height="128"></th>
-	        </tr>
-		    <tr>
-		      <td>PRODUCCION</td>
-		      <td>DESPERDICIO MATERIAL</td>
-		      <td>INVENTARIO DE EQUIPOS</td>
+              <th scope="col"><a href="#"><img src="image/mantenimiento.png" width="128" height="128"></a> 
+              PRODUCCION</th>
+	
+		      <th scope="col"><a href="sistema/cndesp/index.html"><img src="image/bienesmuebles.png" width="128" height="128"></a> 
+             DESPERDICIO MATERIAL </th>
+              
+		      <th scope="col"><a href="#"><img src="image/ecomputo33.png" width="128" height="128"></a> 
+             INVENTARIO DE EQUIPOS</th>
 	        </tr>
 	      </table>
 		  <p>&nbsp;</p>

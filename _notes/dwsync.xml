@@ -14,8 +14,16 @@
 <file name="normalize.css" server="C:/xampp2/htdocs/procon" local="130584606689040926" remote="130584606680000000" Dst="0" />
 <file name="estilo.css" server="C:/xampp2/htdocs/procon" local="130584671932555846" remote="130584671930000000" Dst="0" />
 <file name="index.php" server="C:/xampp2/htdocs/procon" local="130584671900636836" remote="130584671900000000" Dst="0" />
+<<<<<<< HEAD
+<file name="estilo.css" server="C:/xampp2/htdocs/procon/" local="130584676384550468" remote="130584676380000000" Dst="0" />
+<file name="index.php" server="C:/xampp2/htdocs/procon/" local="130584733653988957" remote="130584733650000000" Dst="0" />
+<file name="normalize.css" server="C:/xampp2/htdocs/procon/" local="130584606689040926" remote="130584606680000000" Dst="0" />
+<file name="salir.php" server="C:/xampp2/htdocs/procon/" local="130494878841881531" remote="130494878840000000" Dst="0" />
+<file name="verificarIngreso.php" server="C:/xampp2/htdocs/procon/" local="130584762432007259" remote="130584762430000000" Dst="0" />
+=======
 <file name="normalize.css" server="C:/wamp/www/procon" local="130584635689312722" remote="130584635680000000" Dst="0" />
 <file name="normalize.css" server="C:/wamp/www/procon/" local="130584635689312722" remote="130584635680000000" Dst="0" />
 <file name="estilo.css" server="C:/wamp/www/procon/" local="130584771406725314" remote="130584771400000000" Dst="0" />
 <file name="index.php" server="C:/wamp/www/procon/" local="130584761946834239" remote="130584761940000000" Dst="0" />
+>>>>>>> origin/master
 </dwsync>

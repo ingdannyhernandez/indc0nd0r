@@ -1,90 +1,157 @@
-footer{
-	background: #AAA; 
-	padding:10px;
-	text-align:center;
-}
-
-h2{ 
-	font-family: 'Rancho', cursive; 
-}
-
+/*
+ROJO = #C30
+VERDE= #9C3
+VERDECOBALTO=#189
+*/
 header{ 
-	background: #0FF; 
-	padding:20px; 
-	text-align:center; 
-	
+	background: #999; 
+	height: 150px; 
 }
+
+div.sesion{ 
+	width: 27em;
+  	position: relative;
+	bottom:0.1em;
+	right:0.5em;
+	left:1em;
+  }
+
+div.principal{ 
+	background: none repeat scroll 0 0 #9DE;
+   	 margin: 0 auto;
+	 width: 34.5em;
+  	 position: relative;
+	 border-color:#189;
+	border-style: solid;
+	margin-top:20px;
+	min-height:20em;
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+  }
+  
+div.principal p{ 
+	color: #027;
+	font-family: 'Gill Sans MT'; 
+	text-align: right;
+	font-size: 1.5em;
+	padding-right:1em;
+	}
+
 
 header h1{ 	
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Gill Sans MT'; 
 	margin:0; 
-	}
-
-nav ul{ 
-	background: #000; 
-	color:#FFF;
-	list-style: none; 
-	margin:0; 
-	padding:0; 
 	text-align: center;
-}
-nav ul li{
-  	display: inline-block;
-}
-nav ul li a{ 
-	display:block;
-	padding: 10px; 
+	padding-top: 0.3em; 
+	font-size:2.5em;
+	color:#fff;
+	}
 	
-}
-nav ul li a:hover{ 
-	background: green; 
+	
+	
+content{ 
+	background-color:#fff;
+	display: block; 
+	height: 500px; 
+
 	}
 
-section{ 	 
-	min-height: 30em; 
-	overflow: hidden;
-}
-section aside{
-    float: left;
-    width: 20em;
-}
-section content{
-	display: block;
-	position: absolute;
-	left: 500px;
-	top: 200px;
-	width: 419px;
-}
 
-div.featured{ 
-	background: none repeat scroll 0 0 #FFA500;
+div.formClave{ 
+	background: none repeat scroll 0 0 #9C3;
    	 margin: 0 auto;
  	 padding: 1em;
-	 width: 20em;
+	 width: 30em;
   	 position: relative;
+	 border-color:#C30;
+	border-style: solid;
+	margin-top:30px;
+	
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
   }
 
-div.featured div.close{
- 	position: absolute;
-  	right: 0.5em;
-  	top: 0.5em;
-}
-
-div.featured div.edit{ 
-	font-size:0.5em;
-}
-div.featured div.edit img{ 
-	postion:relative; top:2px;
+div.formClave h1{
+	font-family:"Gill Sans MT";
+	font-size:1.5em;
+	text-align:center;
+	color:#000;
+	
 }
 
 
+div.formClave p{ 
+	color: #000;
+	font-family: 'Gill Sans MT'; 
+	text-align: right;
+	font-size: 1.5em;
+	padding-right:4em;
+	}	
+	
 
-@media (max-width: 380px) {
-  section aside {
-    display: none;
+.boton1{
+background-color:#189;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:10px;
+padding-right:10px;
+font-size:18px;
+font-family: 'Gill Sans MT';
+
+border-color:#666;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+
+
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+
+@media only screen and (min-width: 481px) {
+
+header h1{ 	
+	margin:0; 
+	text-align: center;
+	padding-top: 0.3em; 
+	font-size:2em;
+	}
+	
+section{ 	 
+	min-height: 100px; 
+	overflow: hidden;
+	background-color:#99DDEE;
+}
+
+}
+
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+@media only screen and (min-width: 769px) {
+
+
+header h1{ 	
+	margin:0; 
+	text-align: center;
+	padding-top: 1em; 
+	padding-right: 1.5em;
+	font-size:2em;
+	}
+	
+section{ 	 
+	min-height: 80px; 
+	overflow: hidden;
+	background-color:#99DDEE;
+}
+
+div.Secundario{ 
+	background-color:#999;
   }
-  section content{ padding-left: 0; }
-}
 
+}
 
 

@@ -20,14 +20,10 @@
     			<form name="form1" method="post" action="verificarIngreso.php">
    			    
                 <p>
-<<<<<<< HEAD
    			    <label for="usuario">Usuario</label>
    			    <input type="text" name="usuario" id="usuario"><br>
-=======
-   			    <label for="usu_log">Usuario</label>
-   			    <input type="text" name="usu_log" id="usu_log">
->>>>>>> origin/master
-                </p>
+   			 
+</p>
 
 		        <p>
 		          <label for="clave">Contraseña</label>

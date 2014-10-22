@@ -36,7 +36,7 @@
    			</div>
 </content>
 <footer>
-prueba
+ 
  </footer>
 </body>
 </html> 

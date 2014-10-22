@@ -54,7 +54,7 @@ header h1{
 content{ 
 	background-color:#fff;
 	display: block; 
-	height: 500px; 
+	height: 350px; 
 
 	}
 
@@ -153,5 +153,15 @@ div.Secundario{
   }
 
 }
-
+footer{ 
+	  position: relative; /* Altura total del footer en px con valor negativo */
+	  /* Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior */ 
+	  width:100%;    
+	  height: 90px;
+	  padding:30px 0px;
+	  clear: both; background: #189;
+	  text-align: center; color: #fff; } /* Esta clase define la anchura del contenido y la posicion centrada El contenido queda centrado y limitado, pero la cabecera y el pie llegan hasta los limites del navegador. */
+	   
+	
+}
 

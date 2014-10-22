@@ -21,7 +21,7 @@
    			    
                 <p>
    			    <label for="usu_log">Usuario</label>
-   			    <input type="text" name="usu_log" id="usu_log"><br>
+   			    <input type="text" name="usu_log" id="usu_log">
                 </p>
 
 		        <p>
@@ -35,6 +35,9 @@
    			  </form>
    			</div>
 </content>
+<footer>
 
+
+ </footer>
 </body>
 </html> 

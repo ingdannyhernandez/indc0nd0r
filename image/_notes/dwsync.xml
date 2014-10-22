@@ -8,11 +8,6 @@
 <file name="fondoblanco.png" server="192.168.1.201/procon/" local="130225441600000000" remote="130583017800000000" Dst="0" />
 <file name="bienesmuebles3.png" server="192.168.1.201/procon/" local="130583032166134677" remote="130583101800000000" Dst="0" />
 <file name="logo.png" server="C:/xampp2/htdocs/procon" local="130584606688770692" remote="130584606680000000" Dst="0" />
-<file name="bienesmuebles.png" server="C:/xampp2/htdocs/procon/" local="130584606688730648" remote="130584606680000000" Dst="0" />
-<file name="bienesmuebles3.png" server="C:/xampp2/htdocs/procon/" local="130584607872225848" remote="130584607870000000" Dst="0" />
-<file name="ecomputo33.png" server="C:/xampp2/htdocs/procon/" local="130584606688750658" remote="130584606680000000" Dst="0" />
-<file name="favicon.ico" server="C:/xampp2/htdocs/procon/" local="130579514358773095" remote="130579514350000000" Dst="0" />
-<file name="fondoblanco.png" server="C:/xampp2/htdocs/procon/" local="130584607872235857" remote="130584607870000000" Dst="0" />
-<file name="logo.png" server="C:/xampp2/htdocs/procon/" local="130584606688770692" remote="130584606680000000" Dst="0" />
-<file name="mantenimiento.png" server="C:/xampp2/htdocs/procon/" local="130584606688780693" remote="130584606680000000" Dst="0" />
+<file name="logo.png" server="C:/wamp/www/procon" local="130584635689262719" remote="130584635680000000" Dst="0" />
+<file name="logo.png" server="C:/wamp/www/procon/" local="130584635689262719" remote="130584635680000000" Dst="0" />
 </dwsync>

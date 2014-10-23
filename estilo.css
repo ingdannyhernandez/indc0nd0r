@@ -13,29 +13,49 @@ header{
 	border-bottom-style:solid;
 	border-bottom-width:5px;
 }
-
 div.logo{
-	background:url(image/logo.png) no-repeat 10px; /*la posicion que se encuentra la imagen*/
+	background:url(image/logo3.png) no-repeat 10px; /*la posicion que se encuentra la imagen*/
 	background-size: 230px; /*este me da el tamaño de la imagen*/
     height: 70px;/*me ingresa el mismo tamaño que tiene el header*/	
 	}
-
 div.titulo{
-	top: 0.5em;
-	width: 432px;
-	right: 475px;
+	top: 4px;/*0.5em; posicion que tenia*/
+	width: 723px;/*432px*/
+	right: 295px;/*475px*/
 	position: absolute;
-	font-size: 2em;
-    text-align:center;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: "Papyrus";
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	height: 70px;
 	}
-	
+div.titulo:hover{
+	color:#FFF;
+	top: 4px;
+	width: 723px;
+	right:295px;
+	position: absolute;
+	font-size: 2.5em;
+    text-align:center;
+	font-family: "Papyrus"; 
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	}	
 div.sesion{/*posicion de la sesion en la parte derecha ariba*/
 	width: 266px;
 	position: absolute;
     right: 0.5em;
     top: 3em;
-  }
-
+	/*me ingresa el mismo tamaño que tiene el header*/	
+	}
+div.icono{
+	width: 59px;
+	position: absolute;
+    right: 17.3em;
+    top: 2.5em;
+	background:url(image/icono.png)no-repeat 33px; /*la posicion que se encuentra la imagen*/
+	background-size: 30px; /*este me da el tamaño de la imagen*/
+    height:30px;
+	}
 .menu {
 	background: none repeat scroll 0 0 #CCC;
 	float: left;
@@ -56,7 +76,6 @@ ul.nav {
 	margin-bottom: 15px; /* esto crea el espacio entre la navegación en el contenido situado debajo */
 }
 
-
 div.principal{ 
 background: none repeat scroll 0 0 #9DE;
    	 margin: 0 auto;
@@ -70,10 +89,9 @@ background: none repeat scroll 0 0 #9DE;
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
-  }
-  
+  } 
 div.principal p{ 
-		color: #027;
+	color: #027;
 	font-family: 'Gill Sans MT'; 
 	text-align: right;
 	font-size: 1.5em;
@@ -84,9 +102,7 @@ content{
 	display: block; 
 	height: 350px;
 	margin-top:90px;
-
 	}
-
 div.formClave{ 
 	background: none repeat scroll 0 0 #9C3;
    	 margin: 0 auto;
@@ -96,8 +112,6 @@ div.formClave{
 	 border-color:#C30;
 	border-style: solid;
 	margin-top:30px;
-	
-
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border-radius: 10px;
@@ -107,11 +121,8 @@ div.formClave h1{
 	font-family:"Gill Sans MT";
 	font-size:1.5em;
 	text-align:center;
-	color:#000;
-	
+	color:#000;	
 }
-
-
 div.formClave p{ 
 	color: #000;
 	font-family: 'Gill Sans MT'; 
@@ -119,8 +130,6 @@ div.formClave p{
 	font-size: 1.5em;
 	padding-right:4em;
 	}	
-	
-
 .boton1{
 display: inline-block;
 overflow: hidden;
@@ -133,15 +142,10 @@ padding-left:10px;
 padding-right:10px;
 font-size:18px;
 font-family: 'Gill Sans MT';
-
 border-color:#333;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border-radius: 10px;
-
-
-
-
 /*esto es para que me genere el bordecito gris y me haga una pausa al pasar el click sobre el boton*/
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f969b', endColorstr='#8f969b',GradientType=0 );
 	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
@@ -155,49 +159,34 @@ border-radius: 10px;
 	-o-transition: all 0.2s linear 0s;
 	-ms-transition: all 0.2s linear 0s;
 }
-
 .boton1:hover{
-
-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);/*genera sombra al texto*/
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);/*genera sombra al texto*/
 	background: -moz-linear-gradient(center top , #f6ad1f 0%, #da9105 100%) repeat scroll 0 0 transparent;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,rgba(246,173,31,1)), color-stop(0%,rgba(218,145,5,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,rgba(246,173,31,1)),     color-stop(0%,rgba(218,145,5,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /*  Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ad1f', endColorstr='#da9105',GradientType=0 ); /* IE6-9 */
 	color: #fff;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-
-
 }
-
 /* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
-
 @media only screen and (min-width: 481px) {
-
 header h1{ 	
 	margin:0; 
 	text-align: center;
 	padding-top: 0.3em; 
-	font-size:2em;
-	
-	
-	}
-	
+	font-size:2em;		
+	}	
 section{ 	 
 	min-height: 100px; 
 	overflow: hidden;
 	background-color:#99DDEE;
 }
-
 }
-
 /* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
-
 @media only screen and (min-width: 769px) {
-
-
 header h1{ 	
 	margin:0; 
 	text-align: center;
@@ -205,17 +194,14 @@ header h1{
 	padding-right: 1.5em;
 	font-size:2em;
 	}
-	
 section{ 	 
 	min-height: 80px; 
 	overflow: hidden;
 	background-color:#99DDEE;
 }
-
 div.Secundario{ 
 	background-color:#999;
   }
-
 }
 footer{ 
 	  position: relative; /* Altura total del footer en px con valor negativo */
@@ -227,7 +213,5 @@ footer{
 	  text-align: center; color: #fff;
 	border-top:#c30;
 	border-top-style:solid;
-	border-top-width:5px;
-	   
-	
+	border-top-width:5px;	
 }

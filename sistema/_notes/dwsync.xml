@@ -6,15 +6,9 @@
 <file name="index.php" server="C:/xampp2/htdocs/procon/" local="130584770767793036" remote="130584770760000000" Dst="0" />
 <file name="inicio.php" server="C:/xampp2/htdocs/procon/" local="130584733426177751" remote="130584733420000000" Dst="0" />
 <file name="sesion.php" server="C:/xampp2/htdocs/procon/" local="130584767765461500" remote="130584767760000000" Dst="0" />
-<<<<<<< HEAD
-<file name="index.php" server="192.168.1.201/procon/" local="130585658494699111" remote="130585660200000000" Dst="0" />
+<file name="index.php" server="192.168.1.201/procon/" local="130585662918949959" remote="130585666800000000" Dst="0" />
 <file name="inicio.php" server="192.168.1.201/procon/" local="130584773680644086" remote="130585411800000000" Dst="0" />
-<file name="sesion.php" server="192.168.1.201/procon/" local="130585658494709111" remote="130585660200000000" Dst="0" />
-=======
-<file name="index.php" server="192.168.1.201/procon/" local="130585651348119111" remote="130585653000000000" Dst="0" />
-<file name="inicio.php" server="192.168.1.201/procon/" local="130584773680644086" remote="130585411800000000" Dst="0" />
-<file name="sesion.php" server="192.168.1.201/procon/" local="130585653346389111" remote="130585654800000000" Dst="0" />
->>>>>>> parent of b1eb1b6... Revert "se areglo la interfaz de inicio de sesion"
+<file name="sesion.php" server="192.168.1.201/procon/" local="130585662918959959" remote="130585666800000000" Dst="0" />
 <file name="sesion.php" server="C:/wamp/www/procon/" local="130584776230201201" remote="130584776230000000" Dst="0" />
 <file name="inicio.php" server="C:/wamp/www/procon/" local="130584776230161198" remote="130584776230000000" Dst="0" />
 <file name="index.php" server="C:/wamp/www/procon/" local="130584900886214335" remote="130584900880000000" Dst="0" />

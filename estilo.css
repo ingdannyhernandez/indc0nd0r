@@ -52,7 +52,7 @@ div.icono{
 	position: absolute;
     right: 17.3em;
     top: 2.5em;
-	background:url(image/icono.png)no-repeat 33px; /*la posicion que se encuentra la imagen*/
+	background:url(image/sesion.png)no-repeat 33px; /*la posicion que se encuentra la imagen*/
 	background-size: 30px; /*este me da el tamaño de la imagen*/
     height:30px;
 	}

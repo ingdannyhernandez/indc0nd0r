@@ -25,8 +25,8 @@
 <title>Documento sin título</title>
 </head>
 <body>
-<span class="cuadroTexto"><img src="img/User.png" alt="" width="20" height="20" /><?php echo utf8_encode($DatosDeTablaUnFiltro[1].' '.$DatosDeTablaUnFiltro[2].'');?>
-<a href="../salir.php">(Cerrar Sesión)</a>
+<span class="cuadroTexto"><img src="img/User.png" alt="" width="20" height="20" /><?php echo utf8_encode($DatosDeTablaUnFiltro[1].' ('.$DatosDeTablaUnFiltro[2].')');?>
+<a href="../salir.php"> (Cerrar Sesión)</a>
 </span><span class=""></span>
 </body>
 </html>

@@ -40,16 +40,14 @@ session_start();
 <body>
 <header>
 <div class="logo"></div>
- <div class="titulo"> <center> BIENVENIDOS A PROCON</center></div>
+ <div class="titulo"> <center> INDUSTRIAS CONDOR</center></div>
  
- <div class="sesion">
-  <?php @$opcion2=$_GET["opcion2"];
+ <div class="sesion"><?php @$opcion2=$_GET["opcion2"];
 switch ($opcion2)
 {
 default:
 include("sesion.php");
 } ?></div>
-
 
 
 <div class="menu">
@@ -62,10 +60,6 @@ include("sesion.php");
 
   </div>
 
-
-
-
-<div class="icono"></div>
 </header>
 <content>
   <div class="principal">

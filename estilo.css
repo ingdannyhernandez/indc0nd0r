@@ -21,11 +21,14 @@ div.logo{
 	}
 
 div.titulo{
-	top: 1.5em;
-	width:300px;
-	left: 1.5em;
-	position:absolute;	
+	top: 0.5em;
+	width: 432px;
+	right: 475px;
+	position: absolute;
+	font-size: 2em;
+    text-align:center;
 	}
+	
 div.sesion{/*posicion de la sesion en la parte derecha ariba*/
 	width: 266px;
 	position: absolute;
@@ -34,10 +37,19 @@ div.sesion{/*posicion de la sesion en la parte derecha ariba*/
   }
 
 .menu {
+	background: none repeat scroll 0 0 #CCC;
 	float: left;
-	width: 20%;
+	left:1em;/*0.5em tenia antes*/
+	width:14.5em;
 	padding-bottom: 10px;
-	margin-top: 50px;
+	position: relative;
+    border-color:#189;
+	border-style: solid;
+	margin-top:10px;/*5px queda pegado con la otra liena*/
+	min-height:25em;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
 }
 ul.nav {
 	list-style: none; /* esto crea el borde superior de los vínculos (los demás se sitúan usando un borde inferior en el LI) */
@@ -46,22 +58,22 @@ ul.nav {
 
 
 div.principal{ 
-	background: none repeat scroll 0 0 #9DE;
+background: none repeat scroll 0 0 #9DE;
    	 margin: 0 auto;
-	 width: 34.5em;
+	 width:68em;/*34.5em*, con 55em queda pegado al lado derecho*/
+	 right:-7.9em;
   	 position: relative;
 	 border-color:#189;
 	border-style: solid;
-	margin-top:20px;
-	min-height:20em;
-
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
+	margin-top:-85.5px;/*valores que tenia 20px*/
+	min-height:25.7em;/*25.5em*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
   }
   
 div.principal p{ 
-	color: #027;
+		color: #027;
 	font-family: 'Gill Sans MT'; 
 	text-align: right;
 	font-size: 1.5em;
@@ -176,7 +188,7 @@ footer{
 	  /* Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior */ 
 	  width:100%;    
 	  height: 100px;
-	  margin-top:70px;
+	  margin-top:70px;/*30px queda bien la segunda pantalla*/
 	  clear: both; background: #189;
 	  text-align: center; color: #fff;
 	border-top:#c30;

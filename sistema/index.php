@@ -39,7 +39,7 @@ session_start();
 <body>
 <header>
 <div class="logo"></div>
- <!--<div class="titulo"> <center> INDUSTRIAS CONDOR</center></div>-->
+ <div class="titulo"> <center> INDUSTRIAS CONDOR</center></div>
  
  <div class="sesion"><?php @$opcion2=$_GET["opcion2"];
 switch ($opcion2)
@@ -77,5 +77,6 @@ include("inicio.php");
 ?>
 </div>
 </content>
+<footer>.</footer>
 </body>
 </html>

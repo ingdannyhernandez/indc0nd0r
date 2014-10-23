@@ -38,9 +38,8 @@ session_start();
 
 <body>
 <header>
-<img src="../image/logo.png" width="192" height="57" > 
-
-<h1>INDUSTRIAS CONDOR</h1>
+<div class="logo"></div>
+ <!--<div class="titulo"> <center> INDUSTRIAS CONDOR</center></div>-->
  
  <div class="sesion"><?php @$opcion2=$_GET["opcion2"];
 switch ($opcion2)

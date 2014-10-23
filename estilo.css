@@ -6,33 +6,32 @@ VERDECOBALTO=#189
 header{ 
 	background: #189; 
 	height: 70px;
-<<<<<<< HEAD
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
-=======
-
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
-	
- 
-
->>>>>>> origin/master
 }
 
+div.logo{
+	background:url(image/logo.png) no-repeat 10px; /*la posicion que se encuentra la imagen*/
+	background-size: 230px; /*este me da el tamaño de la imagen*/
+    height: 70px;/*me ingresa el mismo tamaño que tiene el header*/	
+	}
 
+div.titulo{
+	top: 1.5em;
+	width:300px;
+	left: 1.5em;
+	position:absolute;	
+	}
 div.sesion{/*posicion de la sesion en la parte derecha ariba*/
 	width: 266px;
 	position: absolute;
-
-	right: 0.5em;
-   top: 3em;
-  
-
-
+    right: 0.5em;
+    top: 3em;
   }
-
 
 .menu {
 	float: left;
@@ -44,7 +43,6 @@ ul.nav {
 	list-style: none; /* esto crea el borde superior de los vínculos (los demás se sitúan usando un borde inferior en el LI) */
 	margin-bottom: 15px; /* esto crea el espacio entre la navegación en el contenido situado debajo */
 }
-
 
 
 div.principal{ 
@@ -68,12 +66,7 @@ div.principal p{
 	text-align: right;
 	font-size: 1.5em;
 	padding-right:1em;
-	}
-
-
-
-	
-	
+	}	
 content{ 
 	background-color:#fff;
 	display: block; 
@@ -81,7 +74,6 @@ content{
 	margin-top:90px;
 
 	}
-
 
 div.formClave{ 
 	background: none repeat scroll 0 0 #9C3;

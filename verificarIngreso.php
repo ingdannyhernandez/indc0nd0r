@@ -49,7 +49,9 @@ session_start();
 	header("Location: ".$cargar);
    exit;
 	}
+	
 ?>
+
 </body>
 </html>
 <?php 

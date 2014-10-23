@@ -8,11 +8,14 @@
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link href="estilo.css" rel="stylesheet" type="text/css">
   <link href="image/favicon.png" type="text/css" rel="shortcut icon"/>
+  <script type="text/javascript" language="javascript" src="funciones.js"></script>
 </head>
 
 <body>
 	<header>
-		<h1><img src="image/logo.png" width="350" height="88"></h1>
+        
+		<img src="image/logo.png" width="192" height="57">
+           
 	</header>
 <content>
   <div class="formClave">
@@ -20,18 +23,14 @@
     			<form name="form1" method="post" action="verificarIngreso.php">
    			    
                 <p>
-<<<<<<< HEAD
    			    <label for="usuario">Usuario</label>
-   			    <input type="text" name="usuario" id="usuario"><br>
-=======
-   			    <label for="usu_log">Usuario</label>
-   			    <input type="text" name="usu_log" id="usu_log">
->>>>>>> origin/master
-                </p>
+   			    <input type="text" name="usuario" id="usuario" required="required" autofocus onkeypress="return pasarConEnter(this, event)"><br>
+   			 
+</p>
 
 		        <p>
 		          <label for="clave">Contraseña</label>
-		          <input type="password" name="clave" id="clave"><br>
+		          <input type="password" name="clave" id="clave" required="required" onkeypress="return pasarConEnter(this, event)"><br>
 
                  </p>
                   <p>
@@ -40,7 +39,7 @@
    			  </form>
    			</div>
 </content>
-<footer>
- </footer>
+
+<footer>.</footer>
 </body>
 </html> 

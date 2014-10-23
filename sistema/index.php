@@ -38,16 +38,31 @@ session_start();
 
 <body>
 <header>
-    	<h1>INDUSTRIAS CONDOR</h1>
-        <div class="sesion"><?php @$opcion2=$_GET["opcion2"];
+<img src="../image/logo.png" width="192" height="57" > 
+
+<h1>INDUSTRIAS CONDOR</h1>
+ 
+ <div class="sesion"><?php @$opcion2=$_GET["opcion2"];
 switch ($opcion2)
 {
 default:
 include("sesion.php");
 } ?></div>
+
+
+<div class="menu">
+    <ul class="nav">
+      <li>prueba</li>
+      <li>prueba2</li>
+      <li>prueba3</li>
+      <li>prueba4</li>
+    </ul>
+
+  </div>
+
 </header>
 <content>
-<div class="principal">
+  <div class="principal">
           <?php
 @$opcion=$_GET["opcion"];
 $_SESSION["opcion"]=$opcion;

@@ -122,6 +122,10 @@ div.formClave p{
 	
 
 .boton1{
+display: inline-block;
+overflow: hidden;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+display: inline-block;
 background-color:#189;
 padding-top:5px;
 padding-bottom:5px;
@@ -130,13 +134,43 @@ padding-right:10px;
 font-size:18px;
 font-family: 'Gill Sans MT';
 
-border-color:#666;
+border-color:#333;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border-radius: 10px;
+
+
+
+
+/*esto es para que me genere el bordecito gris y me haga una pausa al pasar el click sobre el boton*/
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f969b', endColorstr='#8f969b',GradientType=0 );
+	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	-o-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	-ms-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	transition: all 0.2s linear 0s;
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	-ms-transition: all 0.2s linear 0s;
 }
 
+.boton1:hover{
 
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);/*genera sombra al texto*/
+	background: -moz-linear-gradient(center top , #f6ad1f 0%, #da9105 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,rgba(246,173,31,1)), color-stop(0%,rgba(218,145,5,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ad1f', endColorstr='#da9105',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+
+}
 
 /* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
 

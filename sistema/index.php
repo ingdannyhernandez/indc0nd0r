@@ -31,8 +31,9 @@ session_start();
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 <title>PROCON</title>
+
 <link rel="stylesheet" type="text/css" href="../normalize.css">
-<link href="../estilo.css" rel="stylesheet" type="text/css">
+<link href="../estilo.css" rel="stylesheet" type="text/css" media="all">
 <script type="text/javascript" language="javascript" src="../funciones.js"></script>
 </head>
 

@@ -9,6 +9,34 @@ las clases puestas aqui aplican a todas las resoluciones
 
 */
 
+div.formClave{ 
+	background: none repeat scroll 0 0 #9C3;
+   	 margin: 0 auto;
+ 	 padding: 1em;
+	 width: 15em;
+  	 position: relative;
+	 border-color:#C30;
+	border-style: solid;
+	margin-top:10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+  }
+
+div.formClave h1{
+	font-family:"Gill Sans MT";
+	font-size:1em;
+	text-align:center;
+	color:#000;	
+}
+div.formClave p{ 
+	color: #000;
+	font-family: 'Gill Sans MT'; 
+	text-align: right;
+	font-size: 1em;
+	padding-right:2em;
+	}
+
 .boton1{
 display: inline-block;
 overflow: hidden;
@@ -73,20 +101,36 @@ fin todas las resoluciones
 
 /* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
 @media only screen and (min-width: 481px) {
-header h1{ 	
-	margin:0; 
-	text-align: center;
-	padding-top: 0.3em; 
-	font-size:2em;		
-	}	
-section{ 	 
-	min-height: 100px; 
-	overflow: hidden;
-	background-color:#99DDEE;
+header{ 
+	background: #189; 
+	height: 40px;
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
 }
+footer{ 
+	  position: absolute; /* Altura total del footer en px con valor negativo */
+	  /* Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior */ 
+	  width:100%;    
+	  height: 70px;
+	  bottom: 0px;
+	  clear: both; background: #189;
+	  text-align: center; color: #fff;
+	border-top:#c30;
+	border-top-style:solid;
+	border-top-width:5px;	
+}
+div.logo{
+	background:url(image/logo3.png) no-repeat 5px; /*la posicion que se encuentra la imagen*/
+	background-size: 100px; /*este me da el tamaño de la imagen*/
+    height: 50px;/*me ingresa el mismo tamaño que tiene el header*/	
+	}
 }
 /* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
-@media only screen and (min-width: 768px) and (min-height: 768px) {
+@media only screen and (min-width: 768px)  {
 header{ 
 	background: #189; 
 	height: 70px;

@@ -91,7 +91,7 @@ ul.nav {
 div.principal{ 
     background: none repeat scroll 0 0 #9DE;
    	 margin: 0 auto;
-	 width:67em;/*34.5em*, con 55em queda pegado al lado derecho*/
+	 width:67em;/*67EM QUEDA BIEN EN MI PC EN LOS DOS NAVEGADORES 34.5em*, con 55em queda pegado al lado derecho*/
 	 right:-7.9em;
   	 position: relative;
 	 border-color:#189;

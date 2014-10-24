@@ -67,7 +67,7 @@ include("sesion.php");
 
 <div class="icono"></div>
 </header>
-<content>
+
   <div class="principal">
           <?php
 @$opcion=$_GET["opcion"];
@@ -83,7 +83,7 @@ include("inicio.php");
 }
 ?>
 </div>
-</content>
+
 <footer>.</footer>
 </body>
 </html>

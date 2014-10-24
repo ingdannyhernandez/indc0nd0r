@@ -77,18 +77,18 @@ ul.nav {
 }
 
 div.principal{ 
-background: none repeat scroll 0 0 #9DE;
+    background: none repeat scroll 0 0 #9DE;
    	 margin: 0 auto;
 	 width:68em;/*34.5em*, con 55em queda pegado al lado derecho*/
 	 right:-7.9em;
   	 position: relative;
 	 border-color:#189;
 	border-style: solid;
-	margin-top:-85.5px;/*valores que tenia 20px*/
-	min-height:25.7em;/*25.5em*/
+	margin-top: 10px;/*valores que tenia 20px, con -85.5px queda bien ariba*/
+	min-height:25.5em;/*25.5em, 25.7em*/
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
-   border-radius: 10px;
+   border-radius: 10px; 
   } 
 div.principal p{ 
 	color: #027;

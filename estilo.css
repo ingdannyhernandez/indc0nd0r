@@ -82,17 +82,70 @@ a {
 font-weight:bold;
 float:right;
 font-family: "Gill Sans MT";
-font-size: 15px;
+font-size: 5.8px;
 color: #333;
 text-decoration: none;
 }
 a:hover {
 font-family: "Gill Sans MT";
-font-size:15px;
+font-size:5.8px;
 color:#FFF;
 text-decoration: none;
 }
 
+	div.titulo{
+	top: 4px;/*0.5em; posicion que tenia*/
+	width: 100px;/*432px*/
+	right: 130px;/*475px*/
+	position: absolute;
+	font-size: 0.5em;
+	text-align: center;
+	font-family: "Papyrus";
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	height: 70px;
+	}
+
+  div.sesion{/*posicion de la sesion en la parte derecha ariba*/
+	width: 100px;
+	position: absolute;
+    right: 0.5em;
+    top: 3em;
+    font-size: 0.5em;
+	/*me ingresa el mismo tamaño que tiene el header*/	
+	}
+	
+	
+	
+	.menu {
+	background: none repeat scroll 0 0 #CCC;
+	float: left;
+	left:0.5em;/*0.5em tenia antes*/
+	width:7em;
+	padding-bottom: 10px;
+	position: relative;
+    border-color:#189;
+	border-style: solid;
+	margin-top:50.5px;/*5px queda pegado con la otra liena*/
+	min-height:15em;/* largo del div*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+
+div.principal{ 
+    background: none repeat scroll 0 0 #9DE;
+   	 margin: 0 auto;
+	 width:9.9em;/*67EM QUEDA BIEN EN MI PC EN LOS DOS NAVEGADORES 34.5em*, con 55em queda pegado al lado derecho*/
+	 right:-4.1em;
+  	 position: relative;
+	 border-color:#189;
+	border-style: solid;
+	margin-top:70px;/*valores que tenia 20px, con -85.5px queda bien ariba*/
+	min-height:17em;/*25.5em, 25.7em*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px; 
+  }
 /*
 fin todas las resoluciones
 */
@@ -128,6 +181,85 @@ div.logo{
 	background-size: 100px; /*este me da el tamaño de la imagen*/
     height: 50px;/*me ingresa el mismo tamaño que tiene el header*/	
 	}
+
+	div.titulo{
+	top: 4px;/*0.5em; posicion que tenia*/
+	width: 300px;/*432px*/
+	right: 230px;/*475px*/
+	position: absolute;
+	font-size: 1em;
+	text-align: center;
+	font-family: "Papyrus";
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	height: 70px;
+	}
+	
+  div.sesion{/*posicion de la sesion en la parte derecha ariba*/
+	width: 100px;
+	position: absolute;
+    right: 0.5em;
+    top: 3em;
+    font-size: 0.5em;
+	/*me ingresa el mismo tamaño que tiene el header*/	
+	}
+	
+div.icono{
+	width: 59px;
+	position: absolute;
+    right: 5.7em;
+    top: 0.5em;
+	background:url(image/sesion.png)no-repeat 33px; /*la posicion que se encuentra la imagen*/
+	background-size:14px; /*este me da el tamaño de la imagen*/
+    height:39px;
+	
+}
+a {
+font-weight:bold;
+float:right;
+font-family: "Gill Sans MT";
+font-size: 5.9px;
+color: #333;
+text-decoration: none;
+
+}
+a:hover {
+font-family: "Gill Sans MT";
+font-size:5.9px;
+color:#FFF;
+text-decoration: none;
+}
+.menu {
+	background: none repeat scroll 0 0 #CCC;
+	float: left;
+	left:1em;/*0.5em tenia antes*/
+	width:10.5em;
+	padding-bottom: 10px;
+	position: relative;
+    border-color:#189;
+	border-style: solid;
+	margin-top:10px;/*5px queda pegado con la otra liena*/
+	min-height:15em;/* largo del div*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+
+div.principal{ 
+    background: none repeat scroll 0 0 #9DE;
+   	 margin: 0 auto;
+	 width:33em;/*67EM QUEDA BIEN EN MI PC EN LOS DOS NAVEGADORES 34.5em*, con 55em queda pegado al lado derecho*/
+	 right:-5.9em;
+  	 position: relative;
+	 border-color:#189;
+	border-style: solid;
+	margin-top:14.5px;/*valores que tenia 20px, con -85.5px queda bien ariba*/
+	min-height:15.5em;/*25.5em, 25.7em*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px; 
+  }
+
+
 }
 /* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
 @media only screen and (min-width: 768px)  {
@@ -169,22 +301,13 @@ div.titulo{
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 	height: 70px;
 	}
-div.titulo:hover{
-	color:#FFF;
-	top: 4px;
-	width: 723px;
-	right:295px;
-	position: absolute;
-	font-size: 2.5em;
-    text-align:center;
-	font-family: "Papyrus"; 
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-	}	
+	
 div.sesion{/*posicion de la sesion en la parte derecha ariba*/
 	width: 266px;
 	position: absolute;
     right: 0.5em;
     top: 3em;
+	font-size: 1em;
 	/*me ingresa el mismo tamaño que tiene el header*/	
 	}
 div.icono{
@@ -269,7 +392,25 @@ div.formClave p{
 	text-align: right;
 	font-size: 1.5em;
 	padding-right:4em;
-	}	
+	}
+	
+	
+	
+	a {
+font-weight:bold;
+float:right;
+font-family: "Gill Sans MT";
+font-size: 15px;
+color: #333;
+text-decoration: none;
+}
+a:hover {
+font-family: "Gill Sans MT";
+font-size:15px;
+color:#FFF;
+text-decoration: none;
+}
+	
 
 }
 

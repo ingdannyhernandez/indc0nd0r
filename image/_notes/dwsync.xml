@@ -26,4 +26,14 @@
 <file name="logo3.png" server="192.168.1.201/procon/" local="130585662918889959" remote="130585665600000000" Dst="0" />
 <file name="sesion.png" server="192.168.1.201/procon/" local="130585662918839959" remote="130585691400000000" Dst="0" />
 <file name="user-23874_640.png" server="192.168.1.201/procon/" local="130585662918929959" remote="130586494200000000" Dst="0" />
+<file name="logo3.png" server="C:/wamp/www/procon" local="130585662918889959" remote="130585662910000000" Dst="0" />
+<file name="sesion.png" server="C:/wamp/www/procon" local="130585662918839959" remote="130585662910000000" Dst="0" />
+<file name="toggle-small.png" server="C:/wamp/www/procon" local="129997323380000000" remote="129997323380000000" Dst="0" />
+<file name="folder-horizontal.png" server="C:/wamp/www/procon" local="129997323380000000" remote="129997323380000000" Dst="0" />
+<file name="toggle-small-expand.png" server="C:/wamp/www/procon" local="129997323380000000" remote="129997323380000000" Dst="0" />
+<file name="document.png" server="192.168.1.201/procon/" local="129997323380000000" remote="130589796600000000" Dst="0" />
+<file name="folder-horizontal.png" server="192.168.1.201/procon/" local="129997323380000000" remote="130589796600000000" Dst="0" />
+<file name="toggle-small-expand.png" server="192.168.1.201/procon/" local="129997323380000000" remote="130589796600000000" Dst="0" />
+<file name="toggle-small.png" server="192.168.1.201/procon/" local="129997323380000000" remote="130589796600000000" Dst="0" />
+<file name="treeview.php" server="192.168.1.201/procon/" local="130589778355779672" remote="130589796600000000" Dst="0" />
 </dwsync>

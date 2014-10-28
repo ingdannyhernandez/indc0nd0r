@@ -53,13 +53,9 @@ include("sesion.php");
 
 
 <div class="menu">
-    <ul class="nav">
-      <li>prueba</li>
-      <li>prueba2</li>
-      <li>prueba3</li>
-      <li>prueba4</li>
-    </ul>
-
+  <?php
+  include("../php/menutree.php");
+  ?>
   </div>
 
 

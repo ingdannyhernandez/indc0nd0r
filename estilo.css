@@ -6,18 +6,13 @@ VERDECOBALTO=#189
 header{ 
 	background: #189; 
 	height: 70px;
-<<<<<<< HEAD
-	border-bottom-color:#c30;
-	border-bottom-style:solid;
-	border-bottom-width:5px;
-=======
 
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
- 
-
->>>>>>> origin/master
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
 }
 
 div.sesion{/*posicion de la sesion en la parte derecha ariba*/
@@ -161,11 +156,10 @@ div.Secundario{
 
 }
 footer{ 
-	  position: relative; /* Altura total del footer en px con valor negativo */
-	  /* Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior */ 
+	  position: absolute; 
 	  width:100%;    
-	  height: 100px;
-	  margin-top:70px;
+	  height: 80px;
+	  bottom:0em;
 	  clear: both; background: #189;
 	  text-align: center; color: #fff;
 	border-top:#c30;

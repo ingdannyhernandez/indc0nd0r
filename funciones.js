@@ -205,7 +205,14 @@ return (((sign)?'':'-')  + num + '.' + cents);
         return(false);  
     }  
 }  	
+<<<<<<< HEAD
 function cargaMenu(valor)
     {
 	cargarDiv(valor,"pp",1) 	
 	}	
+=======
+function palert()
+	{
+	alert("prueba");
+	}
+>>>>>>> origin/master

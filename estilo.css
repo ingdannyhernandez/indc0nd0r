@@ -17,6 +17,10 @@ header{
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 }
 footer{ 
 	  position: absolute; /* Altura total del footer en px con valor negativo */
@@ -113,6 +117,10 @@ font-family: "Gill Sans MT";
 font-size:5.8px;
 color:#FFF;
 text-decoration: none;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 }
 
 	div.titulo{
@@ -277,6 +285,7 @@ text-decoration: none;
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
+   
 
 }
 .menu b {
@@ -375,7 +384,7 @@ div.icono{
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
-   overflow-x:hidden;
+   overflow:auto;
 }
 .menu b {
 left:0.5em;/*0.5em tenia antes*/

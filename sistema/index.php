@@ -34,13 +34,15 @@ session_start();
 <title>PROCON</title>
 <link rel="stylesheet" type="text/css" href="../normalize.css">
 <link href="../estilo.css" rel="stylesheet" type="text/css" media="all">
+  <link href="image/favicon.png" type="text/css" rel="shortcut icon"/>
 <script type="text/javascript" language="javascript" src="../funciones.js"></script>
 </head>
 
 <body>
 <header>
 <div class="logo"></div>
- <div class="titulo"> <center> BIENVENIDOS A PROCON</center></div>
+ <div class="titulo"> <center> BIEN
+ VENIDOS A PROCON</center></div>
  
  <div class="sesion">
   <?php @$opcion2=$_GET["opcion2"];
@@ -53,9 +55,9 @@ include("sesion.php");
 
 
 <div class="menu">
-  <?php
+ <b> <?php
   include("../php/menutree.php");
-  ?>
+  ?></b>
   </div>
 
 

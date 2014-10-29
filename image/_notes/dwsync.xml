@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="favicon.ico" server="192.168.1.201/procon/" local="130579514358773095" remote="130584828600000000" Dst="0" />
-<file name="logo.png" server="192.168.1.201/procon/" local="130584606688770692" remote="130584828600000000" Dst="0" />
-<file name="bienesmuebles.png" server="192.168.1.201/procon/" local="130584606688730648" remote="130584828600000000" Dst="0" />
-<file name="mantenimiento.png" server="192.168.1.201/procon/" local="130584606688780693" remote="130584828600000000" Dst="0" />
-<file name="ecomputo33.png" server="192.168.1.201/procon/" local="130584606688750658" remote="130584828600000000" Dst="0" />
-<file name="fondoblanco.png" server="192.168.1.201/procon/" local="130584607872235857" remote="130584828600000000" Dst="0" />
-<file name="bienesmuebles3.png" server="192.168.1.201/procon/" local="130584607872225848" remote="130584828600000000" Dst="0" />
+<file name="favicon.ico" server="192.168.1.201/procon/" local="130579514358773095" remote="130590720600000000" Dst="0" />
+<file name="logo.png" server="192.168.1.201/procon/" local="130590600957805670" remote="130590720600000000" Dst="0" />
+<file name="bienesmuebles.png" server="192.168.1.201/procon/" local="130584606688730648" remote="130590720600000000" Dst="0" />
+<file name="mantenimiento.png" server="192.168.1.201/procon/" local="130584606688780693" remote="130590720600000000" Dst="0" />
+<file name="ecomputo33.png" server="192.168.1.201/procon/" local="130584606688750658" remote="130590720600000000" Dst="0" />
+<file name="fondoblanco.png" server="192.168.1.201/procon/" local="130584607872235857" remote="130590720600000000" Dst="0" />
+<file name="bienesmuebles3.png" server="192.168.1.201/procon/" local="130584607872225848" remote="130590720600000000" Dst="0" />
 <file name="logo.png" server="C:/xampp2/htdocs/procon" local="130584606688770692" remote="130584606680000000" Dst="0" />
 <file name="bienesmuebles.png" server="C:/xampp2/htdocs/procon/" local="130584606688730648" remote="130584606680000000" Dst="0" />
 <file name="bienesmuebles3.png" server="C:/xampp2/htdocs/procon/" local="130584607872225848" remote="130584607870000000" Dst="0" />
@@ -29,4 +29,18 @@
 <file name="reset.png" server="C:/xampp2/htdocs/procon/" local="130590600957855715" remote="130590600950000000" Dst="0" />
 <file name="treeview.php" server="C:/xampp2/htdocs/procon/" local="130590600957885739" remote="130590600950000000" Dst="0" />
 <file name="user-23874_640.png" server="C:/xampp2/htdocs/procon/" local="130590600957905753" remote="130590600950000000" Dst="0" />
+<file name="csesion.png" server="192.168.1.201/procon/" local="130590600957695590" remote="130590720600000000" Dst="0" />
+<file name="document.png" server="192.168.1.201/procon/" local="130590600957705595" remote="130590720600000000" Dst="0" />
+<file name="folder-horizontal.png" server="192.168.1.201/procon/" local="130590600957715604" remote="130590723000000000" Dst="0" />
+<file name="icono.jpg" server="192.168.1.201/procon/" local="130590600957765638" remote="130590720600000000" Dst="0" />
+<file name="icono3.png" server="192.168.1.201/procon/" local="130590600957775643" remote="130590720600000000" Dst="0" />
+<file name="icono33.png" server="192.168.1.201/procon/" local="130590600957785648" remote="130590720600000000" Dst="0" />
+<file name="logo3.png" server="192.168.1.201/procon/" local="130590600957815675" remote="130590723000000000" Dst="0" />
+<file name="reset.png" server="192.168.1.201/procon/" local="130590600957855715" remote="130590720600000000" Dst="0" />
+<file name="photo.jpg" server="192.168.1.201/procon/" local="130590600957835709" remote="130590720600000000" Dst="0" />
+<file name="sesion.png" server="192.168.1.201/procon/" local="130590600957865716" remote="130590723000000000" Dst="0" />
+<file name="toggle-small-expand.png" server="192.168.1.201/procon/" local="130590600957875730" remote="130590723000000000" Dst="0" />
+<file name="toggle-small.png" server="192.168.1.201/procon/" local="130590600957875730" remote="130590723000000000" Dst="0" />
+<file name="treeview.php" server="192.168.1.201/procon/" local="130590600957885739" remote="130590720600000000" Dst="0" />
+<file name="user-23874_640.png" server="192.168.1.201/procon/" local="130590600957905753" remote="130590720600000000" Dst="0" />
 </dwsync>

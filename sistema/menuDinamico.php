@@ -1,4 +1,4 @@
-<?php 	
+﻿<?php 	
      if (isset($_SESSION["usuario"]))
 	     {
     	// el tiempo transcurrido 
@@ -42,7 +42,7 @@
 	//creo una instancia a la clase
 	$ObjPhp=new ClasePhp;
 	//busco si existe un usuario con esa informacion
-    $result=$ObjPhp->menuDinamico(); 
+    $result=$ObjPhp->menuDinamico($_SESSION["usuario"]); 
 	
 	 $Modulos = array();
 

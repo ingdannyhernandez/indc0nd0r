@@ -1,7 +1,7 @@
 <body>
 <link href="../estilo.css" rel="stylesheet" type="text/css" media="all">
 <?php
- $qry="SELECT * FROM modulos";
+ $qry="SELECT * FROM modulos order by orden ";
  $result=mysql_query($qry);
 
 
@@ -24,7 +24,7 @@ if ($currentParent == $category['superior']) {
     if ($currLevel == $prevLevel) echo " </li> ";
 
     echo '<li>
-	 <label for="subfolder2">'.$category['descripcion'].'</label> <input type="checkbox" id="subfolder2"/>
+	<label for="subfolder2">'.$category['descripcion'].'</a></label> <input type="checkbox" id="subfolder2"/>
 ';
 
     if ($currLevel > $prevLevel) { $prevLevel = $currLevel; }

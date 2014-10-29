@@ -152,6 +152,14 @@ text-decoration: none;
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
+
+}
+.menu b {
+left:8em;/*0.5em tenia antes*/
+width:13.8em;
+font-size: 7px;
+font-family: "arial";
+
 }
 
 div.principal{ 
@@ -264,8 +272,15 @@ text-decoration: none;
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
-}
 
+}
+.menu b {
+left:0.5em;/*0.5em tenia antes*/
+width:9em;
+font-size: 9.5px;
+font-family: "calibri";
+
+}
 div.principal{ 
     background: none repeat scroll 0 0 #9DE;
    	 margin: 0 auto;
@@ -355,6 +370,14 @@ div.icono{
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
+   overflow-x:hidden;
+}
+.menu b {
+left:0.5em;/*0.5em tenia antes*/
+	width:13.8em;
+font-size: 17px;
+font-family: "calibri";
+
 }
 ul.nav {
 	list-style: none; /* esto crea el borde superior de los vínculos (los demás se sitúan usando un borde inferior en el LI) */
@@ -441,7 +464,7 @@ text-decoration: none;
 
 /*stilo del menu tree*/
 /* Just some base styles not needed for example to function */
-*, html { font-family: Verdana, Arial, Helvetica, sans-serif; }
+
 
 body, form, ul, li, p, h1, h2, h3, h4, h5
 {

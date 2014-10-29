@@ -3,26 +3,12 @@
 <file name="index.php" server="W:/" local="130493423375600799" remote="130493423370000000" Dst="0" />
 <file name="sesion.php" server="W:/" local="130490957780239980" remote="130490957780000000" Dst="0" />
 <file name="inicio.php" server="W:/" local="130493425572556458" remote="130493425570000000" Dst="0" />
-<<<<<<< HEAD
-<file name="index.php" server="C:/xampp2/htdocs/procon/" local="130590640761191944" remote="130590640760000000" Dst="0" />
+<file name="index.php" server="C:/xampp2/htdocs/procon/" local="130590693496492082" remote="130590693490000000" Dst="0" />
 <file name="inicio.php" server="C:/xampp2/htdocs/procon/" local="130584773587014896" remote="130584773580000000" Dst="0" />
 <file name="sesion.php" server="C:/xampp2/htdocs/procon/" local="130590600958015881" remote="130590600950000000" Dst="0" />
 <file name="index.php" server="192.168.1.201/procon/" local="130584864945642704" remote="130584865800000000" Dst="0" />
 <file name="inicio.php" server="192.168.1.201/procon/" local="130584773587014896" remote="130584828600000000" Dst="0" />
 <file name="sesion.php" server="192.168.1.201/procon/" local="130584773587024926" remote="130584828600000000" Dst="0" />
-<file name="menuDinamico.php" server="C:/xampp2/htdocs/procon/" local="130590634617550839" remote="130590634610000000" Dst="0" />
-=======
-<file name="index.php" server="C:/xampp2/htdocs/procon/" local="130584770767793036" remote="130584770760000000" Dst="0" />
-<file name="inicio.php" server="C:/xampp2/htdocs/procon/" local="130584733426177751" remote="130584733420000000" Dst="0" />
-<file name="sesion.php" server="C:/xampp2/htdocs/procon/" local="130584767765461500" remote="130584767760000000" Dst="0" />
-<file name="index.php" server="192.168.1.201/procon/" local="130590634202805038" remote="130590639000000000" Dst="0" />
-<file name="inicio.php" server="192.168.1.201/procon/" local="130584773680644086" remote="130585411800000000" Dst="0" />
-<file name="sesion.php" server="192.168.1.201/procon/" local="130585694381517843" remote="130585691400000000" Dst="0" />
-<file name="sesion.php" server="C:/wamp/www/procon/" local="130584776230201201" remote="130584776230000000" Dst="0" />
-<file name="inicio.php" server="C:/wamp/www/procon/" local="130584776230161198" remote="130584776230000000" Dst="0" />
-<file name="index.php" server="C:/wamp/www/procon/" local="130584900886214335" remote="130584900880000000" Dst="0" />
-<file name="sesion.php" server="C:/wamp/www/procon" local="130585694381517843" remote="130585694380000000" Dst="0" />
-<file name="inicio.php" server="C:/wamp/www/procon" local="130584773680644086" remote="130584773680000000" Dst="0" />
-<file name="index.php" server="C:/wamp/www/procon" local="130589789772419276" remote="130589789770000000" Dst="0" />
->>>>>>> origin/master
+<file name="menuDinamico.php" server="C:/xampp2/htdocs/procon/" local="130590708657826188" remote="130590708650000000" Dst="0" />
+<file name="tabla_registro_usuario.php" server="C:/xampp2/htdocs/procon/" local="130590704313739573" remote="130590704310000000" Dst="0" />
 </dwsync>

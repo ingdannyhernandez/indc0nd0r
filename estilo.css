@@ -10,20 +10,13 @@ las clases puestas aqui aplican a todas las resoluciones
 */
 header{ 
 	background: #189; 
-<<<<<<< HEAD
 	height: 70px;
-
-=======
-	height: 30px;
->>>>>>> origin/master
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
-<<<<<<< HEAD
-=======
 }
 footer{ 
 	  position: absolute; /* Altura total del footer en px con valor negativo */
@@ -120,7 +113,6 @@ font-family: "Gill Sans MT";
 font-size:5.8px;
 color:#FFF;
 text-decoration: none;
->>>>>>> origin/master
 }
 
 	div.titulo{
@@ -184,6 +176,11 @@ div.principal{
    -webkit-border-radius: 10px;
    border-radius: 10px; 
   }
+  .texto1
+{
+color:#F00;
+font-size:18px;
+}
 /*
 fin todas las resoluciones
 */

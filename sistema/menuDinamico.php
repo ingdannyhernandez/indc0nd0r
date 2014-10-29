@@ -29,6 +29,7 @@
 <head>
 <meta charset="utf-8">
 <link href="../estilo.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" language="javascript" src="../funciones.js"></script>
 <title>menu</title>
 </head>
 
@@ -47,9 +48,8 @@
 
  while($row = mysql_fetch_assoc($result)){ 
  $Modulos[$row['id']] = array("superior" => $row['superior'], "descripcion" =>                       
- $row['descripcion']);   
+ $row['descripcion'], "direccion" => $row['direccion'] );   
   }
-//createTree($arrayCategories, 0);
 
  function createTree($array, $currentParent, $currLevel = 0, $prevLevel = -1) {
 
@@ -59,10 +59,10 @@ if ($currentParent == $category['superior']) {
 
     if ($currLevel > $prevLevel) echo " <ol class='tree'> "; 
 
-    if ($currLevel == $prevLevel) echo " </li> ";
+    if ($currLevel == $prevLevel) echo " </li> </a> ";
 
-    echo '<li>
-	 <label for="subfolder2">'.$category['descripcion'].'</label> <input type="checkbox" id="subfolder2"/>
+    echo ' <li>
+	 <label onClick="cargaMenu(&quot;'.$category['direccion'].'&quot;)" for="subfolder2">'.$category['descripcion'].'</label> <input type="checkbox" id="subfolder2"/>
 ';
 
     if ($currLevel > $prevLevel) { $prevLevel = $currLevel; }
@@ -86,7 +86,6 @@ if ($currLevel == $prevLevel) echo " </li>  </ol> ";
  {
 ?>
 <?php 
-
 createTree($Modulos, 0); ?>
 <?php
 }

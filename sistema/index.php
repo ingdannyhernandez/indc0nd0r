@@ -56,7 +56,7 @@ include("sesion.php");
 
 <div class="menu">
  <b> <?php
-  include("../php/menutree.php");
+  include("menuDinamico.php");
   ?></b>
   </div>
 
@@ -66,7 +66,7 @@ include("sesion.php");
 <div class="icono"></div>
 </header>
 
-  <div class="principal">
+  <div class="principal" id="pp">
           <?php
 @$opcion=$_GET["opcion"];
 $_SESSION["opcion"]=$opcion;

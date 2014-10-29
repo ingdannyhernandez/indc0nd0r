@@ -136,9 +136,9 @@ function irAlindex()
 	{
 	location.href="index.php";
 	}
-function irAlindexespermatograma()
+function irAlindextabla_registro_usuario()
 	{
-	location.href="index.php?opcion=tablaespermatograma";
+	location.href="index.php?opcion=tabla_registro_usuario";
 	}
 
 function BuscarResultados(paciente)
@@ -205,3 +205,7 @@ return (((sign)?'':'-')  + num + '.' + cents);
         return(false);  
     }  
 }  	
+function cargaMenu(valor)
+    {
+	cargarDiv(valor,"pp",1) 	
+	}	

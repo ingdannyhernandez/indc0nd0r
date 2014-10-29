@@ -10,20 +10,14 @@ las clases puestas aqui aplican a todas las resoluciones
 */
 header{ 
 	background: #189; 
-<<<<<<< HEAD
 	height: 70px;
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
 
-=======
-	height: 30px;
->>>>>>> origin/master
-	border-bottom-color:#c30;
-	border-bottom-style:solid;
-	border-bottom-width:5px;
-	border-bottom-color:#c30;
-	border-bottom-style:solid;
-	border-bottom-width:5px;
-<<<<<<< HEAD
-=======
 }
 footer{ 
 	  position: absolute; /* Altura total del footer en px con valor negativo */
@@ -120,7 +114,7 @@ font-family: "Gill Sans MT";
 font-size:5.8px;
 color:#FFF;
 text-decoration: none;
->>>>>>> origin/master
+
 }
 
 	div.titulo{
@@ -280,6 +274,7 @@ text-decoration: none;
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
+   
 
 }
 .menu b {
@@ -378,7 +373,7 @@ div.icono{
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
-   overflow-x:hidden;
+   overflow:auto;
 }
 .menu b {
 left:0.5em;/*0.5em tenia antes*/

@@ -205,3 +205,7 @@ return (((sign)?'':'-')  + num + '.' + cents);
         return(false);  
     }  
 }  	
+function palert()
+	{
+	alert("prueba");
+	}

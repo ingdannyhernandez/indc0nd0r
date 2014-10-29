@@ -17,14 +17,17 @@
 
 foreach ($array as $categoryId => $category) {
 
-if ($currentParent == $category['superior']) {                       
+if ($currentParent == $category['superior']) { 
+
+
+                      
 
     if ($currLevel > $prevLevel) echo " <ol class='tree'> "; 
 
     if ($currLevel == $prevLevel) echo " </li> ";
 
     echo '<li>
-	<label for="subfolder2">'.$category['descripcion'].'</a></label> <input type="checkbox" id="subfolder2"/>
+	<label onClick="palert()" for="subfolder2" > '.$category['descripcion'].'</label> <input type="checkbox" id="subfolder2" />
 ';
 
     if ($currLevel > $prevLevel) { $prevLevel = $currLevel; }

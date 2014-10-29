@@ -10,13 +10,20 @@ las clases puestas aqui aplican a todas las resoluciones
 */
 header{ 
 	background: #189; 
+<<<<<<< HEAD
+	height: 70px;
+
+=======
 	height: 30px;
+>>>>>>> origin/master
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
+<<<<<<< HEAD
+=======
 }
 footer{ 
 	  position: absolute; /* Altura total del footer en px con valor negativo */
@@ -113,6 +120,7 @@ font-family: "Gill Sans MT";
 font-size:5.8px;
 color:#FFF;
 text-decoration: none;
+>>>>>>> origin/master
 }
 
 	div.titulo{
@@ -490,6 +498,25 @@ ol.tree
 	padding: 0 0 0 30px;
 	width: 300px;
 }
+<<<<<<< HEAD
+
+div.Secundario{ 
+	background-color:#999;
+  }
+
+}
+footer{ 
+	  position: absolute; 
+	  width:100%;    
+	  height: 80px;
+	  bottom:0em;
+	  clear: both; background: #189;
+	  text-align: center; color: #fff;
+	border-top:#c30;
+	border-top-style:solid;
+	border-top-width:5px;
+	   
+=======
 	li 
 	{ 
 		position: relative; 
@@ -540,6 +567,7 @@ ol.tree
 		 
 		
 	}
+>>>>>>> origin/master
 	
 
 	li input:checked + ol

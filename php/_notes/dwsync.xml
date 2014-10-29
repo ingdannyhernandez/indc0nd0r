@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
+<<<<<<< HEAD
+<file name="ClasePhp.php" server="C:/xampp2/htdocs/procon/" local="130590628666313723" remote="130590628660000000" Dst="0" />
+<file name="coneccion.php" server="C:/xampp2/htdocs/procon/" local="130584773586825172" remote="130584773580000000" Dst="0" />
+<file name="ClasePhp.php" server="192.168.1.201/procon/" local="130584773586794689" remote="130584828600000000" Dst="0" />
+<file name="coneccion.php" server="192.168.1.201/procon/" local="130584773586825172" remote="130584828600000000" Dst="0" />
+<file name="menutree.php" server="C:/xampp2/htdocs/procon/" local="130590600957945797" remote="130590600950000000" Dst="0" />
+=======
 <file name="ClasePhp.php" server="C:/xampp2/htdocs/procon/" local="130584712686359112" remote="130584712680000000" Dst="0" />
 <file name="coneccion.php" server="C:/xampp2/htdocs/procon/" local="130584737672227157" remote="130584737670000000" Dst="0" />
 <file name="ClasePhp.php" server="192.168.1.201/procon/" local="130585737233725693" remote="130586268000000000" Dst="0" />
@@ -7,5 +14,10 @@
 <file name="coneccion.php" server="C:/wamp/www/procon" local="130584773680584086" remote="130584773680000000" Dst="0" />
 <file name="ClasePhp.php" server="C:/wamp/www/procon" local="130585737233725693" remote="130585737230000000" Dst="0" />
 <file name="menutree.php" server="C:/wamp/www/procon" local="130589789463799276" remote="130589789460000000" Dst="0" />
+<<<<<<< HEAD
 <file name="menutree.php" server="192.168.1.201/procon/" local="130590684830896049" remote="130590686400000000" Dst="0" />
+=======
+<file name="menutree.php" server="192.168.1.201/procon/" local="130590634202785038" remote="130590639000000000" Dst="0" />
+>>>>>>> origin/master
+>>>>>>> origin/master
 </dwsync>

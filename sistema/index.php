@@ -24,6 +24,7 @@ session_start();
 		header('Location: ../index.php');
 		exit;
 		}
+
 ?>
 <!doctype html>
 <html>
@@ -32,22 +33,38 @@ session_start();
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 <title>PROCON</title>
 <link rel="stylesheet" type="text/css" href="../normalize.css">
-<link href="../estilo.css" rel="stylesheet" type="text/css">
+<link href="../estilo.css" rel="stylesheet" type="text/css" media="all">
 <script type="text/javascript" language="javascript" src="../funciones.js"></script>
 </head>
 
 <body>
 <header>
-  <h1>INDUSTRIAS CONDOR</h1>
- <div class="sesion"><?php @$opcion2=$_GET["opcion2"];
+<div class="logo"></div>
+ <div class="titulo"> <center> BIENVENIDOS A PROCON</center></div>
+ 
+ <div class="sesion">
+  <?php @$opcion2=$_GET["opcion2"];
 switch ($opcion2)
 {
 default:
 include("sesion.php");
 } ?></div>
+
+
+
+<div class="menu">
+  <?php
+  include("../php/menutree.php");
+  ?>
+  </div>
+
+
+
+
+<div class="icono"></div>
 </header>
-<content>
-<div class="principal">
+
+  <div class="principal">
           <?php
 @$opcion=$_GET["opcion"];
 $_SESSION["opcion"]=$opcion;
@@ -62,6 +79,7 @@ include("inicio.php");
 }
 ?>
 </div>
-</content>
+
+<footer>.</footer>
 </body>
 </html>

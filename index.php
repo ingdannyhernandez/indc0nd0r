@@ -12,10 +12,8 @@
 </head>
 
 <body>
-	<header>
-        
-		<img src="image/logo.png" width="192" height="57">
-           
+	<header>  
+	<div class="logo"></div>      
 	</header>
 <content>
   <div class="formClave">

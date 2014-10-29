@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
+<<<<<<< HEAD
 <file name="estilo.css" server="C:/wamp/www/procon" local="130578694463673671" remote="130578694460000000" Dst="0" />
 <file name="index.php" server="C:/wamp/www/procon" local="130578695524073671" remote="130578695520000000" Dst="0" />
 <file name="estilo.css" server="192.168.1.201/procon/" local="130584864945792845" remote="130584865800000000" Dst="0" />
@@ -17,4 +18,33 @@
 <file name="funciones.js" server="192.168.1.201/procon/" local="130584801632401691" remote="130584828600000000" Dst="0" />
 <file name="salir.php" server="192.168.1.201/procon/" local="130584773586944837" remote="130584828600000000" Dst="0" />
 <file name="verificarIngreso.php" server="192.168.1.201/procon/" local="130584773587034936" remote="130584828600000000" Dst="0" />
+=======
+<file name="estilo.css" server="C:/wamp/www/procon" local="130589785775256352" remote="130589785770000000" Dst="0" />
+<file name="index.php" server="C:/wamp/www/procon" local="130585429557059687" remote="130585429550000000" Dst="0" />
+<file name="estilo.css" server="192.168.1.201/procon/" local="130589785775256352" remote="130589796600000000" Dst="0" />
+<file name="index.php" server="192.168.1.201/procon/" local="130585429557059687" remote="130585431000000000" Dst="0" />
+<file name="normalize.css" server="192.168.1.201/procon/" local="130584738422814035" remote="130585411800000000" Dst="0" />
+<file name="normalize.css" server="C:/xampp2/htdocs/procon" local="130584606689040926" remote="130584606680000000" Dst="0" />
+<file name="estilo.css" server="C:/xampp2/htdocs/procon" local="130584671932555846" remote="130584671930000000" Dst="0" />
+<file name="index.php" server="C:/xampp2/htdocs/procon" local="130584671900636836" remote="130584671900000000" Dst="0" />
+<file name="estilo.css" server="C:/xampp2/htdocs/procon/" local="130584676384550468" remote="130584676380000000" Dst="0" />
+<file name="index.php" server="C:/xampp2/htdocs/procon/" local="130584733653988957" remote="130584733650000000" Dst="0" />
+<file name="normalize.css" server="C:/xampp2/htdocs/procon/" local="130584606689040926" remote="130584606680000000" Dst="0" />
+<file name="salir.php" server="C:/xampp2/htdocs/procon/" local="130494878841881531" remote="130494878840000000" Dst="0" />
+<file name="verificarIngreso.php" server="C:/xampp2/htdocs/procon/" local="130584762432007259" remote="130584762430000000" Dst="0" />
+<file name="normalize.css" server="C:/wamp/www/procon" local="130584738422814035" remote="130584738420000000" Dst="0" />
+<file name="normalize.css" server="C:/wamp/www/procon/" local="130584635689312722" remote="130584635680000000" Dst="0" />
+<file name="estilo.css" server="C:/wamp/www/procon/" local="130584771406725314" remote="130584771400000000" Dst="0" />
+<file name="index.php" server="C:/wamp/www/procon/" local="130584761946834239" remote="130584761940000000" Dst="0" />
+<file name="salir.php" server="192.168.1.201/procon/" local="130584773680594086" remote="130585411800000000" Dst="0" />
+<file name="verificarIngreso.php" server="192.168.1.201/procon/" local="130585734371139834" remote="130585735800000000" Dst="0" />
+<file name="funciones.js" server="C:/xampp2/htdocs/procon/" local="130584801632401691" remote="130584801630000000" Dst="0" />
+<file name="funciones.js" server="192.168.1.201/procon/" local="130585406068733117" remote="130585411800000000" Dst="0" />
+<file name="verificarIngreso.php" server="C:/wamp/www/procon/" local="130584776230231202" remote="130584776230000000" Dst="0" />
+<file name="funciones.js" server="C:/wamp/www/procon/" local="130584806783278737" remote="130584806780000000" Dst="0" />
+<file name="salir.php" server="C:/wamp/www/procon/" local="130584776229931185" remote="130584776220000000" Dst="0" />
+<file name="procon(1).sql" server="192.168.1.201/procon/" local="130584846976239882" remote="130586494200000000" Dst="0" />
+<file name="funciones.js" server="C:/wamp/www/procon" local="130585406068733117" remote="130585406060000000" Dst="0" />
+<file name="verificarIngreso.php" server="C:/wamp/www/procon" local="130585734371139834" remote="130585734370000000" Dst="0" />
+>>>>>>> origin/master
 </dwsync>

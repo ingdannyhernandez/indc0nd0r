@@ -3,10 +3,190 @@ ROJO = #C30
 VERDE= #9C3
 VERDECOBALTO=#189
 */
+
+/*
+las clases puestas aqui aplican a todas las resoluciones
+
+*/
 header{ 
 	background: #189; 
+<<<<<<< HEAD
 	height: 70px;
 
+=======
+	height: 30px;
+>>>>>>> origin/master
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+<<<<<<< HEAD
+=======
+}
+footer{ 
+	  position: absolute; /* Altura total del footer en px con valor negativo */
+	  /* Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior */ 
+	  width:100%;    
+	  height: 83px;
+	  bottom: 0px;
+	  clear: both; background: #189;
+	  text-align: center; color: #fff;
+	border-top:#c30;
+	border-top-style:solid;
+	border-top-width:5px;	
+}
+
+div.formClave{ 
+	background: none repeat scroll 0 0 #9C3;
+   	 margin: 0 auto;
+ 	 padding: 1em;
+	 width: 15em;
+  	 position: relative;
+	 border-color:#C30;
+	border-style: solid;
+	margin-top:10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+  }
+
+div.formClave h1{
+	font-family:"Gill Sans MT";
+	font-size:1em;
+	text-align:center;
+	color:#000;	
+}
+div.formClave p{ 
+	color: #000;
+	font-family: 'Gill Sans MT'; 
+	text-align: right;
+	font-size: 1em;
+	padding-right:2em;
+	}
+
+.boton1{
+display: inline-block;
+overflow: hidden;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+display: inline-block;
+background-color:#189;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:10px;
+padding-right:10px;
+font-size:18px;
+font-family: 'Gill Sans MT';
+border-color:#333;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*esto es para que me genere el bordecito gris y me haga una pausa al pasar el click sobre el boton*/
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f969b', endColorstr='#8f969b',GradientType=0 );
+	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	-o-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	-ms-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset, 1px 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(173, 170, 170, 0.5);
+	transition: all 0.2s linear 0s;
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	-ms-transition: all 0.2s linear 0s;
+}
+.boton1:hover{
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);/*genera sombra al texto*/
+	background: -moz-linear-gradient(center top , #f6ad1f 0%, #da9105 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,rgba(246,173,31,1)),     color-stop(0%,rgba(218,145,5,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /*  Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(246,173,31,1) 0%,rgba(218,145,5,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ad1f', endColorstr='#da9105',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+a {
+font-weight:bold;
+float:right;
+font-family: "Gill Sans MT";
+font-size: 5.8px;
+color: #333;
+text-decoration: none;
+}
+a:hover {
+font-family: "Gill Sans MT";
+font-size:5.8px;
+color:#FFF;
+text-decoration: none;
+>>>>>>> origin/master
+}
+
+	div.titulo{
+	top: 0px;/*0.5em; posicion que tenia*/
+	width: 140px;/*432px*/
+	right: 130px;/*475px*/
+	position: absolute;
+	font-size: 0.59em;
+	text-align: left;
+	font-family: "Papyrus";
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	height: 70px;
+	}
+
+  div.sesion{/*posicion de la sesion en la parte derecha ariba*/
+	width: 100px;
+	position: absolute;
+    right: 0.5em;
+    top: 2em;
+    font-size: 0.5em;
+	/*me ingresa el mismo tamaño que tiene el header*/	
+	}
+	
+	
+	
+	.menu {
+	background: none repeat scroll 0 0 #CCC;
+	float: left;
+	left:0.5em;/*0.5em tenia antes*/
+	width:7em;
+	padding-bottom: 10px;
+	position: relative;
+    border-color:#189;
+	border-style: solid;
+	margin-top:65px;/*5px queda pegado con la otra liena*/
+	min-height:10em;/* largo del div*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+
+div.principal{ 
+    background: none repeat scroll 0 0 #9DE;
+   	 margin: 0 auto;
+	 width:9.9em;/*67EM QUEDA BIEN EN MI PC EN LOS DOS NAVEGADORES 34.5em*, con 55em queda pegado al lado derecho*/
+	 right:-4.1em;
+  	 position: relative;
+	 border-color:#189;
+	border-style: solid;
+	margin-top:30px;/*valores que tenia 20px, con -85.5px queda bien ariba*/
+	min-height:10.5em;/*25.5em, 25.7em*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px; 
+  }
+/*
+fin todas las resoluciones
+*/
+
+
+
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+@media only screen and (min-width: 481px) {
+header{ 
+	background: #189; 
+	height: 40px;
 	border-bottom-color:#c30;
 	border-bottom-style:solid;
 	border-bottom-width:5px;
@@ -14,53 +194,208 @@ header{
 	border-bottom-style:solid;
 	border-bottom-width:5px;
 }
+footer{ 
+	  position: absolute; /* Altura total del footer en px con valor negativo */
+	  /* Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior */ 
+	  width:100%;    
+	  height: 70px;
+	  bottom: 0px;
+	  clear: both; background: #189;
+	  text-align: center; color: #fff;
+	border-top:#c30;
+	border-top-style:solid;
+	border-top-width:5px;	
+}
+div.logo{
+	background:url(image/logo3.png) no-repeat 5px; /*la posicion que se encuentra la imagen*/
+	background-size: 100px; /*este me da el tamaño de la imagen*/
+    height: 50px;/*me ingresa el mismo tamaño que tiene el header*/	
+	}
 
-div.sesion{/*posicion de la sesion en la parte derecha ariba*/
-	width: 266px;
+	div.titulo{
+	top: 4px;/*0.5em; posicion que tenia*/
+	width: 300px;/*432px*/
+	right: 230px;/*475px*/
 	position: absolute;
+	font-size: 1em;
+	text-align: center;
+	font-family: "Papyrus";
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	height: 70px;
+	}
+	
+  div.sesion{/*posicion de la sesion en la parte derecha ariba*/
+	width: 180px;
+	position: absolute;
+    right: 0.5em;
+    top: 2em;
+    font-size: 0.8em;
+	/*me ingresa el mismo tamaño que tiene el header*/	
+	}
+	
+div.icono{
+	width: 142px;
+	position: absolute;
+    right: 5.7em;
+    top: 0.8em;
+	background:url(image/sesion.png)no-repeat 33px; /*la posicion que se encuentra la imagen*/
+	background-size:14px; /*este me da el tamaño de la imagen*/
+    height:39px;
+	
+}
+a {
+font-weight:bold;
+float:right;
+font-family: "Gill Sans MT";
+font-size: 9.9px;
+color: #333;
+text-decoration: none;
 
-	right: 0.5em;
-   top: 3em;
-
-
-  }
+}
+a:hover {
+font-family: "Gill Sans MT";
+font-size:9.9px;
+color:#FFF;
+text-decoration: none;
+}
+.menu {
+	background: none repeat scroll 0 0 #CCC;
+	float: left;
+	left:1em;/*0.5em tenia antes*/
+	width:10.5em;
+	padding-bottom: 10px;
+	position: relative;
+    border-color:#189;
+	border-style: solid;
+	margin-top:10px;/*5px queda pegado con la otra liena*/
+	min-height:15em;/* largo del div*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
 
 div.principal{ 
-	background: none repeat scroll 0 0 #9DE;
+    background: none repeat scroll 0 0 #9DE;
    	 margin: 0 auto;
-	 width: 34.5em;
+	 width:33em;/*67EM QUEDA BIEN EN MI PC EN LOS DOS NAVEGADORES 34.5em*, con 55em queda pegado al lado derecho*/
+	 right:-5.9em;
   	 position: relative;
 	 border-color:#189;
 	border-style: solid;
-	margin-top:20px;
-	min-height:20em;
-
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
+	margin-top:14.5px;/*valores que tenia 20px, con -85.5px queda bien ariba*/
+	min-height:15.5em;/*25.5em, 25.7em*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px; 
   }
-  
+
+
+}
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+@media only screen and (min-width: 768px)  {
+header{ 
+	background: #189; 
+	height: 70px;
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#c30;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+}
+footer{ 
+	  position: absolute; /* Altura total del footer en px con valor negativo */
+	  /* Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior */ 
+	  width:100%;    
+	  height: 100px;
+	  bottom: 0px;
+	  clear: both; background: #189;
+	  text-align: center; color: #fff;
+	border-top:#c30;
+	border-top-style:solid;
+	border-top-width:5px;	
+}
+div.logo{
+	background:url(image/logo3.png) no-repeat 10px; /*la posicion que se encuentra la imagen*/
+	background-size: 230px; /*este me da el tamaño de la imagen*/
+    height: 70px;/*me ingresa el mismo tamaño que tiene el header*/	
+	}
+div.titulo{
+	top: 4px;/*0.5em; posicion que tenia*/
+	width: 723px;/*432px*/
+	right: 295px;/*475px*/
+	position: absolute;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: "Papyrus";
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	height: 70px;
+	}
+	
+div.sesion{/*posicion de la sesion en la parte derecha ariba*/
+	width: 266px;
+	position: absolute;
+    right: 0.5em;
+    top: 3em;
+	font-size: 1em;
+	/*me ingresa el mismo tamaño que tiene el header*/	
+	}
+div.icono{
+	width: 59px;
+	position: absolute;
+    right: 17.3em;
+    top: 2.5em;
+	background:url(image/sesion.png)no-repeat 33px; /*la posicion que se encuentra la imagen*/
+	background-size: 30px; /*este me da el tamaño de la imagen*/
+    height:30px;
+	}
+.menu {
+	background: none repeat scroll 0 0 #CCC;
+	float: left;
+	left:1em;/*0.5em tenia antes*/
+	width:14.5em;
+	padding-bottom: 10px;
+	position: relative;
+    border-color:#189;
+	border-style: solid;
+	margin-top:10px;/*5px queda pegado con la otra liena*/
+	min-height:25em;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+ul.nav {
+	list-style: none; /* esto crea el borde superior de los vínculos (los demás se sitúan usando un borde inferior en el LI) */
+	margin-bottom: 15px; /* esto crea el espacio entre la navegación en el contenido situado debajo */
+}
+
+div.principal{ 
+    background: none repeat scroll 0 0 #9DE;
+   	 margin: 0 auto;
+	 width:67em;/*67EM QUEDA BIEN EN MI PC EN LOS DOS NAVEGADORES 34.5em*, con 55em queda pegado al lado derecho*/
+	 right:-7.9em;
+  	 position: relative;
+	 border-color:#189;
+	border-style: solid;
+	margin-top: 5px;/*valores que tenia 20px, con -85.5px queda bien ariba*/
+	min-height:25.5em;/*25.5em, 25.7em*/
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px; 
+  } 
 div.principal p{ 
 	color: #027;
 	font-family: 'Gill Sans MT'; 
 	text-align: right;
 	font-size: 1.5em;
 	padding-right:1em;
-	}
-
-
-
-	
-	
+	}	
 content{ 
 	background-color:#fff;
 	display: block; 
 	height: 350px;
 	margin-top:90px;
-
 	}
-
-
 div.formClave{ 
 	background: none repeat scroll 0 0 #9C3;
    	 margin: 0 auto;
@@ -70,8 +405,6 @@ div.formClave{
 	 border-color:#C30;
 	border-style: solid;
 	margin-top:30px;
-	
-
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border-radius: 10px;
@@ -81,74 +414,68 @@ div.formClave h1{
 	font-family:"Gill Sans MT";
 	font-size:1.5em;
 	text-align:center;
-	color:#000;
-	
+	color:#000;	
 }
-
-
 div.formClave p{ 
 	color: #000;
 	font-family: 'Gill Sans MT'; 
 	text-align: right;
 	font-size: 1.5em;
 	padding-right:4em;
-	}	
-	
-
-.boton1{
-background-color:#189;
-padding-top:5px;
-padding-bottom:5px;
-padding-left:10px;
-padding-right:10px;
-font-size:18px;
-font-family: 'Gill Sans MT';
-
-border-color:#666;
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
-}
-
-
-
-/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
-
-@media only screen and (min-width: 481px) {
-
-header h1{ 	
-	margin:0; 
-	text-align: center;
-	padding-top: 0.3em; 
-	font-size:2em;
 	}
 	
-section{ 	 
-	min-height: 100px; 
-	overflow: hidden;
-	background-color:#99DDEE;
-}
-
-}
-
-/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
-
-@media only screen and (min-width: 769px) {
-
-
-header h1{ 	
-	margin:0; 
-	text-align: center;
-	padding-top: 1em; 
-	padding-right: 1.5em;
-	font-size:2em;
-	}
 	
-section{ 	 
-	min-height: 80px; 
-	overflow: hidden;
-	background-color:#99DDEE;
+	
+	a {
+font-weight:bold;
+float:right;
+font-family: "Gill Sans MT";
+font-size: 15px;
+color: #333;
+text-decoration: none;
 }
+a:hover {
+font-family: "Gill Sans MT";
+font-size:15px;
+color:#FFF;
+text-decoration: none;
+}
+	
+
+}
+
+
+
+
+/*stilo del menu tree*/
+/* Just some base styles not needed for example to function */
+*, html { font-family: Verdana, Arial, Helvetica, sans-serif; }
+
+body, form, ul, li, p, h1, h2, h3, h4, h5
+{
+	margin: 0;
+	padding: 0;
+}
+body { background-color: ; color: #000; margin: 0; }
+img { border: none; }
+p
+{
+	font-size: 1em;
+	margin: 0 0 1em 0;
+}
+
+html { font-size: 100%; /* IE hack */ }
+body { font-size: 1em; /* Sets base font size to 16px */ }
+table { font-size: 100%; /* IE hack */ }
+input, select, textarea, th, td { font-size: 1em; }
+	
+/* CSS Tree menu styles */
+ol.tree
+{
+	padding: 0 0 0 30px;
+	width: 300px;
+}
+<<<<<<< HEAD
 
 div.Secundario{ 
 	background-color:#999;
@@ -166,5 +493,66 @@ footer{
 	border-top-style:solid;
 	border-top-width:5px;
 	   
+=======
+	li 
+	{ 
+		position: relative; 
+		margin-left: -15px;
+		list-style: none;
+	}
+	li.file
+	{
+		margin-left: -1px !important;
+	}
+		li.file a
+		{
+			background: url(document.png) 0 0 no-repeat;
+			color: #fff;
+			padding-left: 21px;
+			text-decoration: none;
+			display: block;
+		}
+		li.file a[href *= '.pdf']	{ background: url(document.png) 0 0 no-repeat; }
+		li.file a[href *= '.html']	{ background: url(document.png) 0 0 no-repeat; }
+		li.file a[href $= '.css']	{ background: url(document.png) 0 0 no-repeat; }
+		li.file a[href $= '.js']		{ background: url(document.png) 0 0 no-repeat; }
+	li input
+	{
+		position: absolute;
+		left: 0;
+		margin-left: 0;
+		opacity: 0;
+		z-index: 2;
+		cursor: pointer;
+		height: 1em;
+		width: 1em;
+		top: 0;
+	}
+		li input + ol
+		{
+			background: url(image/toggle-small-expand.png) 40px 0 no-repeat;
+			margin: -0.938em 0 0 -44px; /* 15px */
+			height: 1em;
+		}
+		li input + ol > li { display: none; margin-left: -14px !important; padding-left: 1px; }
+	li label
+	{
+		background: url(image/folder-horizontal.png) 15px 1px no-repeat;
+		cursor: pointer;
+		display: block;
+		padding-left: 37px;
+		 
+		
+	}
+>>>>>>> origin/master
 	
-}
+
+	li input:checked + ol
+	{
+		background: url(image/toggle-small.png) 40px 5px no-repeat;
+		margin: -1.25em 0 0 -44px; /* 20px */
+		padding: 1.563em 0 0 80px;
+		height: auto;
+	}
+		li input:checked + ol > li { display: block; margin: 0 0 0.125em;  /* 2px */}
+		li input:checked + ol > li:last-child { margin: 0 0 0.063em; /* 1px */ }

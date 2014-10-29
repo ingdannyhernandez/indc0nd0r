@@ -59,11 +59,7 @@ include("sesion.php");
   include("menuDinamico.php");
   ?></b>
   </div>
-
-
-
-
-<div class="icono"></div>
+<div class="ico"></div>
 </header>
 
   <div class="principal" id="pp">

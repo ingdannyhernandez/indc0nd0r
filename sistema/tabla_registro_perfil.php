@@ -10,10 +10,20 @@
 </head>
 
 <body>
+<div class="barratareas">
+<a href="" >Cancelar</a>
+<a href="">Buscar</a>
+<a href="">Eliminar</a>
+<a href="">Actualizar</a>
+<a href="">Guardar</a>
+<a href="">Nuevo</a>
+</div>
+<br>
 
   <div class="rusuario">
-    <h1>Registro Perfil</h1>
-    			<form name="form1" method="post" action="verificarIngreso.php">
+    <span class="texto1">Registro Perfil</span><hr>
+    			<form name="form1" method="post" action="verificarIngreso.php"><br>
+                
    			    
                 <p>
    			    <label for="nombre">Nombre</label>

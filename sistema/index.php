@@ -40,6 +40,7 @@ session_start();
 
 <body>
 <header>
+<div class="ico"></div>
 <div class="logo"></div>
  <div class="titulo"> <center> BIEN
  VENIDOS A PROCON</center></div>
@@ -52,14 +53,14 @@ default:
 include("sesion.php");
 } ?></div>
 
-
-
 <div class="menu">
  <b> <?php
   include("menuDinamico.php");
   ?></b>
   </div>
-<div class="ico"></div>
+  
+  
+
 </header>
 
   <div class="principal" id="pp">
@@ -78,6 +79,6 @@ include("inicio.php");
 ?>
 </div>
 
-<footer>.</footer>
+<footer></footer>
 </body>
 </html>

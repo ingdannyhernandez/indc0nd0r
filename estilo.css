@@ -182,9 +182,19 @@ div.principal{
   }
   .texto1
 {
-color:#F00;
-font-size:18px;
+	font-family:"Gill Sans MT";
+	font-size:2em;
+	text-align:center;
+	color:#000;	
 }
+
+hr
+{
+  /* margenes para colocar a la izquierda   margin-left: 0%; margin-right: 70%;*/
+  height:2px;
+  border-width: 0;
+  background-color: #189;
+	} 
 /*
 fin todas las resoluciones
 */
@@ -468,30 +478,16 @@ font-size:15px;
 color:#FFF;
 text-decoration: none;
 }
-	
-	
-
 div.rusuario{ 
-	/* background: none repeat scroll 0 0 ;
-	 left:1em;
-     padding: 1em;
-	 width: 31em;
-  	 position: relative;
-	 border-color:#C30;
-	border-style: solid;
-	margin-top:10px;
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 20px;*/
-		background: none repeat scroll 0 0 #CCC;
-	float: left;
-	left:1em;/*0.5em tenia antes*/
-	width:20em;
+	background: none repeat scroll 0 0 #CCC;
+    padding:1em;
+	left:0.5em;/*0.5em tenia antes*/
+	width:63.5em;/*20em*/
 	padding-bottom: 10px;
-	position: relative;
+	position: absolute;
     border-color:#189;
 	border-style: solid;
-	margin-top:65px;/*5px queda pegado con la otra liena*/
+	margin-top:10px;/*5px queda pegado con la otra liena*/
 	min-height:10em;/* largo del div*/
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
@@ -500,19 +496,39 @@ border-radius: 20px;*/
 div.rusuario h1{
 	font-family:"Gill Sans MT";
 	font-size:1.5em;
-	text-align:center;
 	color:#000;	
 }
 
 div.rusuario p{ 
 	color: #000;
 	font-family: 'Gill Sans MT'; 
-	text-align: right;
+	text-align: left;
 	font-size: 1em;
 	padding-right:4em;
 	}
-
+	
+	
+div.barratareas  {
+position: relative;
+overflow: hidden;
+width: 75%;
+margin: 10px auto 10px;
+border-radius: 8px;
+background: #CCC;/*color azul 025BA3*/
+text-align:center;
+border-color: #189;
+border-style: solid;
 }
+div.barratareas  a {
+display: inline-block;
+width: 15%; /* 100% dividido por el número de elementos del menú */
+box-sizing: border-box;
+padding: 10px 10px;
+color: #000;
+}
+
+ 
+  }	
 
 /*css de menu tree*/
 

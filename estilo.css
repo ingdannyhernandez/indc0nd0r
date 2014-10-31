@@ -506,12 +506,12 @@ div.rusuario p{
 	font-size: 1em;
 	padding-right:4em;
 	}
-	
+/*barra de tareas*/	
 	
 div.barratareas  {
 position: relative;
 overflow: hidden;
-width: 75%;
+width: 60%;
 margin: 10px auto 10px;
 border-radius: 8px;
 background: #CCC;/*color azul 025BA3*/
@@ -519,24 +519,107 @@ text-align:center;
 border-color: #189;
 border-style: solid;
 }
-div.barratareas  a {
-display: inline-block;
-width: 15%; /* 100% dividido por el número de elementos del menú */
-box-sizing: border-box;
-padding: 10px 10px;
-color: #000;
+
+
+.barratareas ul li a.bnuevo{
+background: url(image/iconos/nuevo.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+
 }
 
+.barratareas ul li a.bnuevo:hover
+{
+background: url(image/iconos/nuevohover.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+}
+.barratareas ul li a.bguardar{
+background: url(image/iconos/guardar1.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+
+}
+
+.barratareas ul li a.bguardar:hover
+{
+background: url(image/iconos/guardarhover.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+}
+.barratareas ul li a.bactualizar{
+background: url(image/iconos/actualizar1.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+
+}
+
+.barratareas ul li a.bactualizar:hover
+{
+background: url(image/iconos/actualizarhover.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+}
+
+ .barratareas ul li a.beliminar{
+background: url(image/iconos/eliminar.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+
+}
+
+.barratareas ul li a.beliminar:hover
+{
+background: url(image/iconos/eliminarhover.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+}
  
+ .barratareas ul li a.bbuscar{
+background:url(image/iconos/buscar1.png)no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+
+}
+
+.barratareas ul li a.bbuscar:hover
+{
+background: url(image/iconos/buscarhover.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+}
+ .barratareas  ul li a.bcancelar{
+background: url(image/iconos/cancelar1.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+
+}
+
+.barratareas ul li a.bcancelar:hover
+{
+background: url(image/iconos/cancelarhover.png) no-repeat 5px;
+float:left;
+width:100px;
+height:100px;
+}
+/*fin barra de tareas*/	
+
   }	
 
-/*css de menu tree*/
+/* menu tree*/
 
-
-/* Just some base styles not needed for example to function */
 *, html { }
-
-
 p
 {
 	font-size: 1em;
@@ -613,5 +696,5 @@ ol.tree
 		li input:checked + ol > li { display: block; margin: 0 0 0.125em;  /* 2px */}
 		li input:checked + ol > li:last-child { margin: 0 0 0.063em; /* 1px */ }
 
-
+/*fin menu tree*/
 

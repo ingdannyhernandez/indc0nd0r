@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<div class="barratareas">
+<div class="barratareas"  >
    <ul>
 	    <li> <a href="" class="bnuevo" ></a></li>
 		<li> <a href=""class="bguardar" ></a></li>

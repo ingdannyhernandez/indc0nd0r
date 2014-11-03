@@ -42,8 +42,7 @@ session_start();
 <header>
 <div class="ico"></div>
 <div class="logo"></div>
- <div class="titulo"> <center> BIEN
- VENIDOS A PROCON</center></div>
+ <div class="titulo"> <center> BIENVENIDOS A PROCON</center></div>
  
  <div class="sesion">
   <?php @$opcion2=$_GET["opcion2"];

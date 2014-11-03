@@ -6,14 +6,14 @@
 <file name="index.php" server="C:/xampp2/htdocs/procon/" local="130590693496492082" remote="130590693490000000" Dst="0" />
 <file name="inicio.php" server="C:/xampp2/htdocs/procon/" local="130584773587014896" remote="130584773580000000" Dst="0" />
 <file name="sesion.php" server="C:/xampp2/htdocs/procon/" local="130590600958015881" remote="130590600950000000" Dst="0" />
-<file name="index.php" server="192.168.1.201/procon/" local="130591637178676733" remote="130591638600000000" Dst="0" />
+<file name="index.php" server="192.168.1.201/procon/" local="130594926032320408" remote="130594929600000000" Dst="0" />
 <file name="inicio.php" server="192.168.1.201/procon/" local="130590813448724500" remote="130590815400000000" Dst="0" />
 <file name="sesion.php" server="192.168.1.201/procon/" local="130585694381517843" remote="130590726600000000" Dst="0" />
 <file name="menuDinamico.php" server="C:/xampp2/htdocs/procon/" local="130590708657826188" remote="130590708650000000" Dst="0" />
 <file name="tabla_registro_usuario.php" server="C:/xampp2/htdocs/procon/" local="130590704313739573" remote="130590704310000000" Dst="0" />
 <file name="menuDinamico.php" server="192.168.1.201/procon/" local="130590813448734500" remote="130590815400000000" Dst="0" />
-<file name="tabla_registro_usuario.php" server="192.168.1.201/procon/" local="130592591943915963" remote="130592593800000000" Dst="0" />
-<file name="tabla_registro_perfil.php" server="192.168.1.201/procon/" local="130592587320715963" remote="130592589000000000" Dst="0" />
+<file name="tabla_registro_usuario.php" server="192.168.1.201/procon/" local="130595035765867196" remote="130595038800000000" Dst="0" />
+<file name="tabla_registro_perfil.php" server="192.168.1.201/procon/" local="130592592931975963" remote="130595038800000000" Dst="0" />
 <file name="tabla_registro_modulo.php" server="192.168.1.201/procon/" local="130590813440404500" remote="130592571000000000" Dst="0" />
 <file name="index.php" server="C:/wamp/www/procon/" local="130591637178676733" remote="130591637170000000" Dst="0" />
 <file name="inicio.php" server="C:/wamp/www/procon/" local="130590813448724500" remote="130590813440000000" Dst="0" />
@@ -22,5 +22,5 @@
 <file name="tabla_registro_modulo.php" server="C:/wamp/www/procon/" local="130590813440404500" remote="130590813440000000" Dst="0" />
 <file name="tabla_registro_perfil.php" server="C:/wamp/www/procon/" local="130592560595625929" remote="130592560590000000" Dst="0" />
 <file name="tabla_registro_usuario.php" server="C:/wamp/www/procon/" local="130590714826383389" remote="130590714820000000" Dst="0" />
-<file name="barratareas.php" server="192.168.1.201/procon/" local="130592586513885963" remote="130592589000000000" Dst="0" />
+<file name="barratareas.php" server="192.168.1.201/procon/" local="130595016138089622" remote="130595018400000000" Dst="0" />
 </dwsync>

@@ -216,3 +216,7 @@ function palert()
 	alert("prueba");
 	}
 
+function prueba()
+	{
+	$('#barratareas a').load('formulario_usuario.php');
+	}

@@ -24,8 +24,7 @@ include("barratareas.php");
    			     </p>
             		 <p>
    			    		<label for="nombre">Foto</label>
-   			    		<input type="file" name="descripcion" id="descripcion" required  size="20" autofocus onkeypress="return pasarConEnter(this, event)"><br>
-   			 
+   			    		<input type="file" name="descripcion" id="descripcion" required  size="20" autofocus onkeypress="return pasarConEnter(this, event)">
 					</p>
                 
        </fieldset>
@@ -39,7 +38,7 @@ include("barratareas.php");
 						 <p>
    			    			<label for="nombre">N° celular</label>
    			   			    <input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
-   			           	 </p>
+   			           	 </p><br><br>
               </fieldset>
            
    					 <fieldset>
@@ -51,7 +50,7 @@ include("barratareas.php");
 								 <p>
    			    					<label for="nombre">Clave</label>
    			    					<input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
-   			 					 </p>
+   			 					 </p><br><br>
                     </fieldset>
             
     							<fieldset>
@@ -63,7 +62,7 @@ include("barratareas.php");
                   							 <p>
    			    								<label for="nombre">Nivel</label>
    			    								<input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
-   			 								</p>
+   			 								</p><br><br>
                				 </fieldset>
               
     <form>

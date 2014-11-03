@@ -16,15 +16,15 @@ include("barratareas.php");
    		 <legend>Datos personales</legend><br>
              <p>
    			    <label for="nombre">Nombre</label>
-   			    <input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
+   			    <input type="text" name="nombres" id="nombres" required autofocus onkeypress="return pasarConEnter(this, event)">
    			 </p>
 			 	 <p>
-   			    	<label for="nombre">Apellidos</label>
-   			   		 <input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
+   			    	<label for="apellidos">Apellidos</label>
+   			   		 <input type="text" name="apellidos" id="apellidos" required autofocus onkeypress="return pasarConEnter(this, event)">
    			     </p>
             		 <p>
-   			    		<label for="nombre">Foto</label>
-   			    		<input type="file" name="descripcion" id="descripcion" required  size="20" autofocus onkeypress="return pasarConEnter(this, event)">
+   			    		<label for="foto">Foto</label>
+   			    		<input type="file" name="foto" id="foto" required  size="20" autofocus onkeypress="return pasarConEnter(this, event)">
 					</p>
                 
        </fieldset>
@@ -32,36 +32,36 @@ include("barratareas.php");
    				 <fieldset>
  					 <legend>Datos de Contacto</legend><br>
            			  <p>
-   			    		<label for="nombre">Correo</label>
-   			   		    <input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
+   			    		<label for="correo">Correo</label>
+   			   		    <input type="text" name="correo" id="correo" required autofocus onkeypress="return pasarConEnter(this, event)">
    			          </p>
 						 <p>
-   			    			<label for="nombre">N° celular</label>
-   			   			    <input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
+   			    			<label for="celular">N° celular</label>
+   			   			    <input type="text" name="celular" id="celular" required autofocus onkeypress="return pasarConEnter(this, event)">
    			           	 </p><br><br>
               </fieldset>
            
    					 <fieldset>
   						<legend>Datos de Usuario</legend><br>
                				 <p>
-   			   					 <label for="nombre">Usuario</label>
-   			    				 <input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
+   			   					 <label for="usuario">Usuario</label>
+   			    				 <input type="text" name="usuario" id="usuario" required autofocus onkeypress="return pasarConEnter(this, event)">
    			 				</p>
 								 <p>
-   			    					<label for="nombre">Clave</label>
-   			    					<input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
+   			    					<label for="clave">Clave</label>
+   			    					<input type="text" name="clave" id="clave" required autofocus onkeypress="return pasarConEnter(this, event)">
    			 					 </p><br><br>
                     </fieldset>
             
     							<fieldset>
  									 <legend>Nivel de Usuario</legend><br>
               							 <p>
-   			   								 <label for="nombre">Remoto</label>
-   			    							 <input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)"><br>
+   			   								 <label for="remoto">Remoto</label>
+   			    							 <input type="text" name="remoto" id="remoto" required autofocus onkeypress="return pasarConEnter(this, event)"><br>
    			 							</p>
                   							 <p>
-   			    								<label for="nombre">Nivel</label>
-   			    								<input type="text" name="descripcion" id="descripcion" required autofocus onkeypress="return pasarConEnter(this, event)">
+   			    								<label for="nivel">Nivel</label>
+   			    								<input type="text" name="nivel" id="nivel" required autofocus onkeypress="return pasarConEnter(this, event)">
    			 								</p><br><br>
                				 </fieldset>
               

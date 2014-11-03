@@ -315,6 +315,54 @@ div.principal{
    -webkit-border-radius: 10px;
    border-radius: 10px; 
   }
+.boton2{
+	size:10px;
+font-size:10px;
+
+}
+
+div.rusuario{ 
+	background: none repeat scroll 0 0 #CCC;
+    padding:0.5em;
+	left:0.5em;/*0.5em tenia antes*/
+	width:29.5em;/*20em*/
+	padding-bottom: 1px;
+	position: absolute;
+    border-color:#189;
+	border-style: solid;
+	margin-top:1px;/*5px queda pegado con la otra liena*/
+	min-height:1em;/* largo del div*/
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+  }	
+.rusuario fieldset {
+  float: left;
+  width: 3em;
+  border:1px solid;
+ 
+}
+.rusuario fieldset label {
+  display: block;
+  margin:5px 0 0 0;
+}
+
+div.rusuario p{ 
+	color: #000;
+	font-family: 'Arial Black'; 
+
+	font-size: 5px;
+	
+	}
+	
+	div.rusuario legend{ 
+	color: #000;
+	font-family: 'Arial Black';
+	
+	font-size:10px;
+	}
+
+
 
 
 }
@@ -478,6 +526,7 @@ font-size:15px;
 color:#FFF;
 text-decoration: none;
 }
+
 div.rusuario{ 
 	background: none repeat scroll 0 0 #CCC;
     padding:1em;
@@ -615,7 +664,37 @@ height:100px;
 }
 /*fin barra de tareas*/	
 
-  }	
+
+/*formularios registro usuario*/
+.rusuario fieldset {
+  float: left;
+  width: 3em;
+  border:1px solid;
+ 
+}
+.rusuario fieldset label {
+  display: block;
+  margin: .5em 0 0 0;
+}
+
+div.rusuario p{ 
+	color: #000;
+	font-family: 'Gill Sans MT'; 
+
+	font-size: 0.8em;
+	padding-right:5em;
+	}
+	
+	div.rusuario legend{ 
+	color: #000;
+	font-family: 'Arial Black';
+	font-weight:bold;
+	font-size:20px;
+	}
+
+
+
+ }	/**fin de resolucion de escritorio/
 
 /* menu tree*/
 
@@ -697,29 +776,5 @@ ol.tree
 		li input:checked + ol > li:last-child { margin: 0 0 0.063em; /* 1px */ }
 
 /*fin menu tree*/
-/*formularios registro usuario*/
-.rusuario fieldset {
-  float: left;
-  width: 3em;
-  border:1px solid;
- 
-}
-.rusuario fieldset label {
-  display: block;
-  margin: .5em 0 0 0;
-}
 
-div.rusuario p{ 
-	color: #000;
-	font-family: 'Gill Sans MT'; 
 
-	font-size: 0.8em;
-	padding-right:5em;
-	}
-	
-	div.rusuario legend{ 
-	color: #000;
-	font-family: 'Arial Black';
-	font-weight:bold;
-	font-size:20px;
-	}

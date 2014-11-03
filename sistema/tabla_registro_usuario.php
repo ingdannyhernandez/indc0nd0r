@@ -11,7 +11,7 @@ include("barratareas.php");
 ?>
 
 <div class="rusuario">
-  	 <form name="form1" method="post" action="">
+  	 <form name="form1" method="post" action="guardarusuario.php">
    	 	 <fieldset>
    		 <legend>Datos personales</legend><br>
              <p>
@@ -24,7 +24,7 @@ include("barratareas.php");
    			     </p>
             		 <p>
    			    		<label for="foto">Foto</label>
-   			    		<input type="file" name="foto" id="foto" required  size="20" autofocus onkeypress="return pasarConEnter(this, event)">
+   			    		<input type="file" name="foto" id="foto"   size="10" autofocus onkeypress="return pasarConEnter(this, event)">
 					</p>
                 
        </fieldset>
@@ -65,6 +65,10 @@ include("barratareas.php");
    			 								</p><br><br>
                				 </fieldset>
               
+   		
+                  <input name="submit" type="submit" class="boton2" value="guardar">
+                 
+   
     <form>
 
 </div>

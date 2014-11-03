@@ -14,6 +14,20 @@
 include("barratareas.php");
 ?>	
 <br>
+  <div class="rusuario">
+              <span class="texto1">Registro de Perfil</span><hr>
+    			<form name="form1" method="post" action="guardarperfil.php"><br>
+                <p>
+   			    <label for="nombre">Nombre</label>
+   			    <input type="text" name="descripcion" id="descripcion" required="required" autofocus onkeypress="return pasarConEnter(this, event)"><br>
+   			 
+				</p>
+
+                  <p>
+                  <input name="submit" type="submit" class="boton1" value="GUARDAR">
+                  </p>
+   			  </form>
+   		</div>
 
 </body>
 </html>

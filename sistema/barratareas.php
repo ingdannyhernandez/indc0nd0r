@@ -7,7 +7,7 @@
 
 <body>
 <div class="barratareas"  >
-   <ul>
+  
 	    <li> <a class="bnuevo" ></a></li>
 		<li> <a href=""class="bguardar" ></a></li>
 		<li> <a href=""class="bactualizar" ></a></li>
@@ -18,7 +18,7 @@
         <li> <a href=""class="retroceder" ></a></li>
         <li> <a href=""class="avanzar" ></a></li>
         <li> <a href=""class="ultimo" ></a></li>      
-   </ul>
+
 	
 </div>
 </body>

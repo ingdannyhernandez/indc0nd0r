@@ -573,151 +573,173 @@ text-align:center;
 	height:5px;
 	}
 	
-.barratareas ul li a.bnuevo{
+.barratareas  li a.bnuevo{
 background: url(image/iconos%20nuevos/nuevohover.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
+margin-left:3em;
 width:50px;
 height:30px;
 
 }
 
-.barratareas ul li a.bnuevo:hover
+.barratareas li a.bnuevo:hover
 {
 background: url(image/iconos%20nuevos/nuevo.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
+margin-left:3em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.bguardar{
+.barratareas li a.bguardar{
 background: url(image/iconos%20nuevos/guardarhover.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 
 }
 
-.barratareas ul li a.bguardar:hover
+.barratareas li a.bguardar:hover
 {
 background: url(image/iconos%20nuevos/guardar.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.bactualizar{
+.barratareas  li a.bactualizar{
 background: url(image/iconos%20nuevos/actualizarhover.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 
 }
 
-.barratareas ul li a.bactualizar:hover
+.barratareas li a.bactualizar:hover
 {
 background: url(image/iconos%20nuevos/actualizar.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
 
- .barratareas ul li a.beliminar{
+ .barratareas  li a.beliminar{
 background: url(image/iconos%20nuevos/eliminarhover.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 
 }
 
-.barratareas ul li a.beliminar:hover
+.barratareas li a.beliminar:hover
 {
 background: url(image/iconos%20nuevos/eliminar.png) no-repeat 5px;
-float:left;
+float:left
+margin-top:0.5em;;
 width:50px;
 height:30px;
 }
  
- .barratareas ul li a.bbuscar{
+ .barratareas li a.bbuscar{
 background: url(image/iconos%20nuevos/buscarhover.png)no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 
 }
 
-.barratareas ul li a.bbuscar:hover
+.barratareas li a.bbuscar:hover
 {
 background: url(image/iconos%20nuevos/buscar.png)no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
- .barratareas  ul li a.bcancelar{
+ .barratareas li a.bcancelar{
 background: url(image/iconos%20nuevos/cancelar.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 
 }
 
-.barratareas ul li a.bcancelar:hover
+.barratareas  li a.bcancelar:hover
 {
 background: url(image/iconos%20nuevos/cancelarhover.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.avanzar
+.barratareas li a.avanzar
 {
 background: url(image/iconos%20nuevos/adelantehover.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.avanzar:hover
+.barratareas li a.avanzar:hover
 {
 background:url(image/iconos%20nuevos/adelante.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.retroceder
+.barratareas  li a.retroceder
 {
 background: url(image/iconos%20nuevos/atrashover.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.retroceder:hover
+.barratareas li a.retroceder:hover
 {
 background: url(image/iconos%20nuevos/atras.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.ultimo
+.barratareas li a.ultimo
 {
 background: url(image/iconos%20nuevos/finalhover.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.ultimo:hover
+.barratareas li a.ultimo:hover
 {
 background: url(image/iconos%20nuevos/final.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.primero
+.barratareas li a.primero
 {
 background: url(image/iconos%20nuevos/iniciohover.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }
-.barratareas ul li a.primero:hover
+.barratareas  li a.primero:hover
 {
 background: url(image/iconos%20nuevos/inicio.png) no-repeat 5px;
 float:left;
+margin-top:0.5em;
 width:50px;
 height:30px;
 }

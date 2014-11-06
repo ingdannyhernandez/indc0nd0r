@@ -2,55 +2,29 @@
 <dwsync>
 <file name="estilo.css" server="C:/wamp/www/procon" local="130578694463673671" remote="130578694460000000" Dst="0" />
 <file name="index.php" server="C:/wamp/www/procon" local="130578695524073671" remote="130578695520000000" Dst="0" />
-<<<<<<< HEAD
-<<<<<<< HEAD
 <file name="estilo.css" server="192.168.1.201/procon/" local="130590813048680789" remote="130590814800000000" Dst="0" />
-=======
-<file name="estilo.css" server="192.168.1.201/procon/" local="130595212719960514" remote="130595214600000000" Dst="0" />
->>>>>>> origin/master
-=======
-<file name="estilo.css" server="192.168.1.201/procon/" local="130597659961392298" remote="130597661400000000" Dst="0" />
->>>>>>> eecfd4186d66c2893e6beb7db2911acbc36797e9
 <file name="index.php" server="192.168.1.201/procon/" local="130585429557059687" remote="130590733200000000" Dst="0" />
 <file name="normalize.css" server="192.168.1.201/procon/" local="130584738422814035" remote="130590726600000000" Dst="0" />
 <file name="normalize.css" server="C:/xampp2/htdocs/procon" local="130584606689040926" remote="130584606680000000" Dst="0" />
 <file name="estilo.css" server="C:/xampp2/htdocs/procon" local="130584671932555846" remote="130584671930000000" Dst="0" />
 <file name="index.php" server="C:/xampp2/htdocs/procon" local="130584671900636836" remote="130584671900000000" Dst="0" />
-<file name="estilo.css" server="C:/xampp2/htdocs/procon/" local="130590815527944347" remote="130590815520000000" Dst="0" />
+<file name="estilo.css" server="C:/xampp2/htdocs/procon/" local="130597668074789550" remote="130597668070000000" Dst="0" />
 <file name="index.php" server="C:/xampp2/htdocs/procon/" local="130590600957925779" remote="130590600950000000" Dst="0" />
 <file name="normalize.css" server="C:/xampp2/htdocs/procon/" local="130584606689040926" remote="130584606680000000" Dst="0" />
 <file name="salir.php" server="C:/xampp2/htdocs/procon/" local="130584773586944837" remote="130584773580000000" Dst="0" />
 <file name="verificarIngreso.php" server="C:/xampp2/htdocs/procon/" local="130590611289788491" remote="130590611280000000" Dst="0" />
-<<<<<<< HEAD
-<file name="funciones.js" server="C:/xampp2/htdocs/procon/" local="130590815528164991" remote="130590815520000000" Dst="0" />
+<file name="funciones.js" server="C:/xampp2/htdocs/procon/" local="130597668075770458" remote="130597668070000000" Dst="0" />
 <file name="funciones.js" server="192.168.1.201/procon/" local="130590723291759346" remote="130590726000000000" Dst="0" />
-=======
-<file name="funciones.js" server="C:/xampp2/htdocs/procon/" local="130590711142473523" remote="130590711140000000" Dst="0" />
-<<<<<<< HEAD
-<file name="funciones.js" server="192.168.1.201/procon/" local="130595106936267434" remote="130595184000000000" Dst="0" />
->>>>>>> origin/master
-=======
-<file name="funciones.js" server="192.168.1.201/procon/" local="130596109890139683" remote="130597605600000000" Dst="0" />
->>>>>>> eecfd4186d66c2893e6beb7db2911acbc36797e9
 <file name="salir.php" server="192.168.1.201/procon/" local="130584773680594086" remote="130590733200000000" Dst="0" />
 <file name="verificarIngreso.php" server="192.168.1.201/procon/" local="130585734371139834" remote="130590733200000000" Dst="0" />
 <file name="procon(1).sql" server="C:/xampp2/htdocs/procon/" local="130590600957975816" remote="130590600950000000" Dst="0" />
 <file name="normalize.css" server="C:/wamp/www/procon" local="130584738422814035" remote="130584738420000000" Dst="0" />
-<<<<<<< HEAD
 <file name="normalize.css" server="C:/wamp/www/procon/" local="130584635689312722" remote="130584635680000000" Dst="0" />
 <file name="estilo.css" server="C:/wamp/www/procon/" local="130584771406725314" remote="130584771400000000" Dst="0" />
 <file name="index.php" server="C:/wamp/www/procon/" local="130584761946834239" remote="130584761940000000" Dst="0" />
 <file name="verificarIngreso.php" server="C:/wamp/www/procon/" local="130584776230231202" remote="130584776230000000" Dst="0" />
 <file name="funciones.js" server="C:/wamp/www/procon/" local="130584806783278737" remote="130584806780000000" Dst="0" />
 <file name="salir.php" server="C:/wamp/www/procon/" local="130584776229931185" remote="130584776220000000" Dst="0" />
-=======
-<file name="normalize.css" server="C:/wamp/www/procon/" local="130584738422814035" remote="130584738420000000" Dst="0" />
-<file name="estilo.css" server="C:/wamp/www/procon/" local="130592566126255929" remote="130592566120000000" Dst="0" />
-<file name="index.php" server="C:/wamp/www/procon/" local="130585429557059687" remote="130585429550000000" Dst="0" />
-<file name="verificarIngreso.php" server="C:/wamp/www/procon/" local="130585734371139834" remote="130585734370000000" Dst="0" />
-<file name="funciones.js" server="C:/wamp/www/procon/" local="130590813440374500" remote="130590813440000000" Dst="0" />
-<file name="salir.php" server="C:/wamp/www/procon/" local="130584773680594086" remote="130584773680000000" Dst="0" />
->>>>>>> origin/master
 <file name="procon(1).sql" server="192.168.1.201/procon/" local="130584846976239882" remote="130590733200000000" Dst="0" />
 <file name="funciones.js" server="C:/wamp/www/procon" local="130585406068733117" remote="130585406060000000" Dst="0" />
 <file name="verificarIngreso.php" server="C:/wamp/www/procon" local="130585734371139834" remote="130585734370000000" Dst="0" />

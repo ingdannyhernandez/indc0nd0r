@@ -8,7 +8,7 @@
 <body>
 <div class="barratareas"  >
    <ul>
-	    <li> <a class="bnuevo" ></a></li>
+	    <li> <a class="bnuevo" onMouseover="showhint('CREAR NUEVO', this, event, '150px')" ></a></li>
 		<li> <a href=""class="bguardar" ></a></li>
 		<li> <a href=""class="bactualizar" ></a></li>
 		<li> <a href=""class="beliminar" ></a></li>

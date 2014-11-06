@@ -24,7 +24,7 @@ session_start();
 		header('Location: ../index.php');
 		exit;
 		}
-
+include ("../herramientas/mensaje.html");
 ?>
 <!doctype html>
 <html>

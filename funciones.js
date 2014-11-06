@@ -215,4 +215,3 @@ function palert()
 	{
 	alert("prueba");
 	}
-

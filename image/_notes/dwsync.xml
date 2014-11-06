@@ -43,8 +43,6 @@
 <file name="photo.jpg" server="192.168.1.201/procon/" local="130585662918909959" remote="130590733200000000" Dst="0" />
 <file name="treeview.php" server="192.168.1.201/procon/" local="130589778355779672" remote="130590733200000000" Dst="0" />
 <file name="user-23874_640.png" server="192.168.1.201/procon/" local="130585662918929959" remote="130590733200000000" Dst="0" />
-<<<<<<< HEAD
-=======
 <file name="bienesmuebles.png" server="C:/wamp/www/procon/" local="130584738422364035" remote="130584738420000000" Dst="0" />
 <file name="bienesmuebles3.png" server="C:/wamp/www/procon/" local="130584738422374035" remote="130584738420000000" Dst="0" />
 <file name="cancelar.png" server="C:/wamp/www/procon/" local="130591753317548273" remote="130591753310000000" Dst="0" />
@@ -68,5 +66,4 @@
 <file name="treeview.php" server="C:/wamp/www/procon/" local="130589778355779672" remote="130589778350000000" Dst="0" />
 <file name="user-23874_640.png" server="C:/wamp/www/procon/" local="130585662918929959" remote="130585662910000000" Dst="0" />
 <file name="cancelar.png" server="192.168.1.201/procon/" local="130591753317548273" remote="130592571000000000" Dst="0" />
->>>>>>> origin/master
 </dwsync>

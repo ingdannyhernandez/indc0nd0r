@@ -215,3 +215,7 @@ function palert()
 	{
 	alert("prueba");
 	}
+function redir()
+{
+	location.href="tabla_registro_usuario.php";
+	}

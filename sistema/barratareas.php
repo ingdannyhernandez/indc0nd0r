@@ -8,13 +8,16 @@
 <body>
 <div class="barratareas"  >
    <ul>
-	    <li> <a href="" class="bnuevo" ></a></li>
+	    <li> <a class="bnuevo" ></a></li>
 		<li> <a href=""class="bguardar" ></a></li>
 		<li> <a href=""class="bactualizar" ></a></li>
 		<li> <a href=""class="beliminar" ></a></li>
 		<li> <a href=""class="bbuscar" ></a></li>
 		<li> <a href=""class="bcancelar" ></a></li>
-        
+        <li> <a href=""class="primero" ></a></li>
+        <li> <a href=""class="retroceder" ></a></li>
+        <li> <a href=""class="avanzar" ></a></li>
+        <li> <a href=""class="ultimo" ></a></li>      
    </ul>
 	
 </div>

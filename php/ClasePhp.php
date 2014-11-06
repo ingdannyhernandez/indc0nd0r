@@ -76,6 +76,28 @@ function listarTabla($tabla, $orden)
      			return $result;
    			}
 		}
+		
+		function GuardarUsuario($nombres,$apellidos,$correo,$celular,$usuario,$clave,$remoto,$foto)
+		{
+		//creamos el objeto $con a partir de la clase de coneccion
+   		$con = new coneccion;	
+		//usamos el metodo conectar para realizar la conexion
+   		if($con->conectar()==true)
+			{
+				$sql= "insert into usuario(id,nombres,apellidos,correo,celular,usuario,clave,remoto,foto) values ('','$nombres','$apellidos','$correo','$celular','$usuario','$clave','$remoto','$foto');";			
+		
+				$result = @mysql_query($sql); //se evalua la consulta 
+			//$DatosDeTabla = mysql_fetch_row($result);//paso los resultados a un vector
+				if (!$result)
+     			return false;
+    		else
+     			return $result;
+			}	
+		}	
+		
+		
+		
+		
 																																																																																																																																																																			
 	}
 ?>

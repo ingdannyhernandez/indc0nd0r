@@ -1,7 +1,9 @@
 <?php
 include_once("../php/coneccion.php");
+include_once("../php/ClasePhp.php");
 $Objconexion=new coneccion;
 $conex= $Objconexion->conectar();
+$ObjPhp= new ClasePhp;
 
 $nombres      = $_POST["nombres"];
 $apellidos = $_POST["apellidos"];
@@ -11,14 +13,11 @@ $usuario     = $_POST["usuario"];
 $clave     = $_POST["clave"];
 $remoto     = $_POST["remoto"];
 $foto     = $_POST["foto"];
+		
+		
 
 
-
-$sql= "insert into usuario(id,nombres,apellidos,correo,celular,usuario,clave,remoto,foto) values ('','$nombres','$apellidos','$correo','$celular','$usuario','$clave','$remoto','$foto');";			
-			
-
-
-$resultado= mysql_query($sql);
+$resultado=$ObjPhp->GuardarUsuario($nombres,$apellidos,$correo,$celular,$usuario,$clave,$remoto,$foto);
 	if($resultado)
 	{
 		
@@ -28,12 +27,7 @@ $resultado= mysql_query($sql);
 			</script>";
 	
 	}
-     else
-	 {
-		 echo mysql_error();
-		 
-	  }
-//cerrar conexion
-mysql_close();
+    
+
 
 ?>

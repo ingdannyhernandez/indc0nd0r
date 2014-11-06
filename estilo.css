@@ -536,11 +536,12 @@ div.rusuario{
 	position: absolute;
     border-color:#189;
 	border-style: solid;
-	margin-top:10px;/*5px queda pegado con la otra liena*/
+	margin-top:150px;/*5px queda pegado con la otra liena*/
 	min-height:10em;/* largo del div*/
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    border-radius: 10px;
+ 
   }	
 div.rusuario h1{
 	font-family:"Gill Sans MT";
@@ -558,109 +559,167 @@ div.rusuario p{
 /*barra de tareas*/	
 	
 div.barratareas  {
-position: relative;
+padding-right:0.5em;
+position: absolute;
 overflow: hidden;
-width: 60%;
-margin: 10px auto 10px;
+width: 100%;
 border-radius: 8px;
-background: #CCC;/*color azul 025BA3*/
+background: ;/*color azul 025BA3*/
 text-align:center;
-border-color: #189;
-border-style: solid;
+
 }
 
-
+.barratareas ul{
+	height:5px;
+	}
+	
 .barratareas ul li a.bnuevo{
-background: url(image/iconos/nuevo.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/nuevohover.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 
 }
 
 .barratareas ul li a.bnuevo:hover
 {
-background: url(image/iconos/nuevohover.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/nuevo.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 }
 .barratareas ul li a.bguardar{
-background: url(image/iconos/guardar1.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/guardarhover.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 
 }
 
 .barratareas ul li a.bguardar:hover
 {
-background: url(image/iconos/guardarhover.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/guardar.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 }
 .barratareas ul li a.bactualizar{
-background: url(image/iconos/actualizar1.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/actualizarhover.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 
 }
 
 .barratareas ul li a.bactualizar:hover
 {
-background: url(image/iconos/actualizarhover.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/actualizar.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 }
 
  .barratareas ul li a.beliminar{
-background: url(image/iconos/eliminar.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/eliminarhover.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 
 }
 
 .barratareas ul li a.beliminar:hover
 {
-background: url(image/iconos/eliminarhover.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/eliminar.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 }
  
  .barratareas ul li a.bbuscar{
-background:url(image/iconos/buscar1.png)no-repeat 5px;
+background: url(image/iconos%20nuevos/buscarhover.png)no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 
 }
 
 .barratareas ul li a.bbuscar:hover
 {
-background: url(image/iconos/buscarhover.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/buscar.png)no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 }
  .barratareas  ul li a.bcancelar{
-background: url(image/iconos/cancelar1.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/cancelar.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
 
 }
 
 .barratareas ul li a.bcancelar:hover
 {
-background: url(image/iconos/cancelarhover.png) no-repeat 5px;
+background: url(image/iconos%20nuevos/cancelarhover.png) no-repeat 5px;
 float:left;
-width:100px;
-height:100px;
+width:50px;
+height:30px;
+}
+.barratareas ul li a.avanzar
+{
+background: url(image/iconos%20nuevos/adelantehover.png) no-repeat 5px;
+float:left;
+width:50px;
+height:30px;
+}
+.barratareas ul li a.avanzar:hover
+{
+background:url(image/iconos%20nuevos/adelante.png) no-repeat 5px;
+float:left;
+width:50px;
+height:30px;
+}
+.barratareas ul li a.retroceder
+{
+background: url(image/iconos%20nuevos/atrashover.png) no-repeat 5px;
+float:left;
+width:50px;
+height:30px;
+}
+.barratareas ul li a.retroceder:hover
+{
+background: url(image/iconos%20nuevos/atras.png) no-repeat 5px;
+float:left;
+width:50px;
+height:30px;
+}
+.barratareas ul li a.ultimo
+{
+background: url(image/iconos%20nuevos/finalhover.png) no-repeat 5px;
+float:left;
+width:50px;
+height:30px;
+}
+.barratareas ul li a.ultimo:hover
+{
+background: url(image/iconos%20nuevos/final.png) no-repeat 5px;
+float:left;
+width:50px;
+height:30px;
+}
+.barratareas ul li a.primero
+{
+background: url(image/iconos%20nuevos/iniciohover.png) no-repeat 5px;
+float:left;
+width:50px;
+height:30px;
+}
+.barratareas ul li a.primero:hover
+{
+background: url(image/iconos%20nuevos/inicio.png) no-repeat 5px;
+float:left;
+width:50px;
+height:30px;
 }
 /*fin barra de tareas*/	
 

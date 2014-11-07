@@ -1,3 +1,11 @@
+<?php 
+session_start();
+$_SESSION["DESACTIVARBOTONGUARDAR"]="SI";
+
+$_SESSION["formulario"]="USUARIO";
+
+
+?>
 <!doctype html>
 <html>
 <head>

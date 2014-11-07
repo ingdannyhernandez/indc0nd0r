@@ -66,8 +66,5 @@
 <file name="treeview.php" server="C:/wamp/www/procon/" local="130589778355779672" remote="130589778350000000" Dst="0" />
 <file name="user-23874_640.png" server="C:/wamp/www/procon/" local="130585662918929959" remote="130585662910000000" Dst="0" />
 <file name="cancelar.png" server="192.168.1.201/procon/" local="130591753317548273" remote="130592571000000000" Dst="0" />
-<<<<<<< HEAD
-=======
 <file name="cancelar.png" server="C:/xampp2/htdocs/procon/" local="130596759816255297" remote="130596759810000000" Dst="0" />
->>>>>>> origin/master
 </dwsync>

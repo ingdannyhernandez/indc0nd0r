@@ -187,14 +187,19 @@ div.principal{
 	text-align:center;
 	color:#000;	
 }
-
-hr
+  .lineabtareas
 {
-  /* margenes para colocar a la izquierda   margin-left: 0%; margin-right: 70%;*/
+	font-family:"Gill Sans MT";
+	font-size:2em;
+	text-align:center;
+	color:#9DE;	
+}
+hr /*inicio linea debajo de titulo de agregar perfil*/
+{
   height:2px;
   border-width: 0;
   background-color: #189;
-	} 
+	}  /*fin linea debajo de titulo de agregar perfil*/
 /*
 fin todas las resoluciones
 */
@@ -564,7 +569,7 @@ position: absolute;
 overflow: hidden;
 width: 100%;
 border-radius: 8px;
-background: ;/*color azul 025BA3*/
+background:;/*color azul 025BA3*/
 text-align:center;
 
 }
@@ -594,6 +599,14 @@ height:30px;
 }
 .barratareas li a.bguardar{
 background: url(image/iconos%20nuevos/guardarhover.png) no-repeat 5px;
+float:left;
+margin-top:0.5em;
+width:50px;
+height:30px;
+
+}
+.barratareas li a.guardarg{
+background: url(image/iconos%20nuevos/guardargris.png) no-repeat 5px;
 float:left;
 margin-top:0.5em;
 width:50px;
@@ -662,6 +675,7 @@ margin-top:0.5em;
 width:50px;
 height:30px;
 }
+
  .barratareas li a.bcancelar{
 background: url(image/iconos%20nuevos/cancelar.png) no-repeat 5px;
 float:left;
